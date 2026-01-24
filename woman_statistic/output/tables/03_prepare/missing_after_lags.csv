@@ -1,0 +1,5 @@
+Variable,Missing_Count,Missing_Percent
+log_women_farms,0,0.0
+lag1_log_women_farms,20,11.43
+log_credit_total,5,2.86
+lag1_log_credit_total,25,14.29

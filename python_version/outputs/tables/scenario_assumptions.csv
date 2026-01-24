@@ -1,0 +1,5 @@
+driver,pessimistic_rate,base_rate,optimistic_rate,historical_mean,historical_std
+investment_agri,1.0,3.0,5.0,27.46130866398813,31.468509490497716
+labor_productivity,1.0,3.0,5.0,24.804679995498287,29.34455969915416
+gov_support_index,1.0,3.0,5.0,-0.340136054421765,22.80328357777708
+employment_total,1.0,3.0,5.0,-3.9140414674103132,2.8581830167809015

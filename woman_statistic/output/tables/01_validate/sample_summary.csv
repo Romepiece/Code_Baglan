@@ -1,0 +1,11 @@
+Metric,Value
+Total Observations,175
+Total Years,10
+Year Range,2015-2024
+Total Regions,20
+Unbalanced Panel,Yes (see missing_by_year.csv)
+Min Regions per Year,15
+Max Regions per Year,20
+Key Variable: women_farms - Missing,0 (0.00%)
+Key Variable: credit_total - Missing,5 (2.86%)
+Key Variable: land_share - Missing,26 (14.86%)
