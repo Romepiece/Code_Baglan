@@ -1,12 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.27)  7 MAY 2026 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.27)  8 MAY 2026 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./sn-article-eng.tex
-(sn-article-eng.tex
+**r:/Work/My_Science_projects/Code_Baglan/publication_package/source/sn-article
+-eng.tex
+
+(r:/Work/My_Science_projects/Code_Baglan/publication_package/source/sn-article-
+eng.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
-(sn-jnl.cls
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-jnl.cls
 Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
 nal articles
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -820,36 +823,79 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks41
 \@floatcapt=\box77
 )
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+\MT@toks=\toks42
+\MT@tempbox=\box78
+\MT@count=\count337
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks43
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen280
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count338
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip70
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen281
+\TX@old@table=\dimen282
+\TX@old@col=\dimen283
+\TX@target=\dimen284
+\TX@delta=\dimen285
+\TX@cols=\count339
+\TX@ftn=\toks44
+)
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 23.
+ 39.
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.03749pt on input line 23.
+(Font)              scaled to size 10.03749pt on input line 39.
 
-(sn-article-eng.aux)
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-article-
+eng.aux)
 \openout1 = `sn-article-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -890,17 +936,17 @@ LaTeX Font Info:    ... okay on input line 23.
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen280
-\scratchbox=\box78
-\nofMPsegments=\count338
-\nofMParguments=\count339
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen281
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count340
+\scratchdimen=\dimen286
+\scratchbox=\box79
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen287
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks46
 )
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -912,58 +958,108 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \S on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 23.
+LaTeX Info: Redefining \S on input line 39.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 23.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 23.
-Package hyperref Info: Link coloring ON on input line 23.
- (sn-article-eng.out) (sn-article-eng.out)
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 39.
+Package hyperref Info: Link coloring ON on input line 39.
+
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-article-
+eng.out)
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-article-
+eng.out)
 \@outlinefile=\write3
 \openout3 = `sn-article-eng.out'.
 
-\c@mv@tabular=\count343
-\c@mv@boldtabular=\count344
+\c@mv@tabular=\count346
+\c@mv@boldtabular=\count347
+LaTeX Info: Redefining \microtypecontext on input line 39.
+Package microtype Info: Applying patch `item' on input line 39.
+Package microtype Info: Applying patch `toc' on input line 39.
+Package microtype Info: Applying patch `eqnum' on input line 39.
+Package microtype Info: Applying patch `footnote' on input line 39.
+Package microtype Info: Applying patch `verbatim' on input line 39.
+LaTeX Info: Redefining \microtypesetup on input line 39.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.03pt on input line 42.
+(Font)              scaled to size 8.03pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.06374pt on input line 42.
+(Font)              scaled to size 17.06374pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 42.
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 42.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+(Font)              scaled to size 12.045pt on input line 62.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 62.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.43146pt on input line 42.
+(Font)              scaled to size 8.43146pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 42.
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 42
+(Font)              scaled to size 11.04124pt on input line 62.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 62
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.72884pt on input line 42.
+(Font)              scaled to size 7.72884pt on input line 62.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
+62.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 11.04124pt on input line 62.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 42.
+(Font)              scaled to size 9.0pt on input line 62.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.03374pt on input line 42.
+(Font)              scaled to size 9.03374pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.03pt on input line 42.
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 42
+(Font)              scaled to size 8.03pt on input line 62.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 62
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.03749pt on input line 43.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 45.
+(Font)              scaled to size 14.05249pt on input line 63.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -972,7 +1068,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 {C:/Users/sadva/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/sadv
 a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 63.
+(Font)              scaled to size 12.045pt on input line 81.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -981,13 +1077,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 139.
+e 157.
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.03749pt on input line 139.
+(Font)              scaled to size 10.03749pt on input line 157.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -999,19 +1095,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
+<../figures/image002.png, id=463, 469.755pt x 408.77719pt>
+File: ../figures/image002.png Graphic file (type png)
+<use ../figures/image002.png>
+Package pdftex.def Info: ../figures/image002.png  used on input line 399.
+(pdftex.def)             Requested size: 372.0pt x 323.71011pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 400.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 400.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<../figures/image002.png, id=488, 469.755pt x 408.77719pt>
-File: ../figures/image002.png Graphic file (type png)
-<use ../figures/image002.png>
-Package pdftex.def Info: ../figures/image002.png  used on input line 381.
-(pdftex.def)             Requested size: 372.0pt x 323.71011pt.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 382.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 382.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8
@@ -1019,39 +1115,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.402 \end{itemize}
-                    <../figures/image002.png>]
+l.437 
+       <../figures/image002.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.04124pt on input line 469.
+(Font)              scaled to size 11.04124pt on input line 487.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.03749pt on input line 492.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 10.03749pt on input line 492.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0262pt on input line 499.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.01874pt on input line 499.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.03749pt on input line 474.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0262pt on input line 481.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.01874pt on input line 481.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-Underfull \hbox (badness 1168) in paragraph at lines 567--570
-\T1/ntxtlf/m/n/10.03749 log_credit_total, log_credit_kaf, log_credit_acc, log_c
-redit_fund, lag1_log_credit_total,
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 617.
 <../figures/image2.png, id=528, 715.7139pt x 425.6703pt>
 File: ../figures/image2.png Graphic file (type png)
 <use ../figures/image2.png>
-Package pdftex.def Info: ../figures/image2.png  used on input line 636.
+Package pdftex.def Info: ../figures/image2.png  used on input line 654.
 (pdftex.def)             Requested size: 372.0pt x 221.2524pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1061,153 +1150,142 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.640 
-      ]
-<../figures/image3.png, id=534, 715.7139pt x 425.6703pt>
-File: ../figures/image3.png Graphic file (type png)
-<use ../figures/image3.png>
-Package pdftex.def Info: ../figures/image3.png  used on input line 653.
-(pdftex.def)             Requested size: 372.0pt x 221.2524pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
+l.668 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.657 
+l.668 
        <../figures/image2.png>]
-<../figures/image4.png, id=542, 679.338pt x 498.663pt>
+<../figures/image3.png, id=536, 715.7139pt x 425.6703pt>
+File: ../figures/image3.png Graphic file (type png)
+<use ../figures/image3.png>
+Package pdftex.def Info: ../figures/image3.png  used on input line 671.
+(pdftex.def)             Requested size: 372.0pt x 221.2524pt.
+<../figures/image4.png, id=537, 679.338pt x 498.663pt>
 File: ../figures/image4.png Graphic file (type png)
 <use ../figures/image4.png>
-Package pdftex.def Info: ../figures/image4.png  used on input line 671.
+Package pdftex.def Info: ../figures/image4.png  used on input line 689.
 (pdftex.def)             Requested size: 372.0pt x 273.07088pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.675 
+l.693 
        <../figures/image3.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15
+ [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.728 
+l.746 
        <../figures/image4.png>]
-<../figures/image5.png, id=555, 715.473pt x 425.4294pt>
+<../figures/image5.png, id=551, 715.473pt x 425.4294pt>
 File: ../figures/image5.png Graphic file (type png)
 <use ../figures/image5.png>
-Package pdftex.def Info: ../figures/image5.png  used on input line 746.
+Package pdftex.def Info: ../figures/image5.png  used on input line 764.
 (pdftex.def)             Requested size: 372.0pt x 221.1921pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16
+ [15
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.750 
+l.768 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.795 
+l.813 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.795 
+l.813 
        <../figures/image5.png>]
-Overfull \hbox (37.67523pt too wide) in alignment at lines 800--807
-[] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 817--824
-[]\T1/ntxtlf/m/n/10.03749 Cluster 0 (15 regions) -- rural areas with a high lev
-el of women's farm-ing
+Overfull \hbox (1.18002pt too wide) in paragraph at lines 826--826
+[]|\T1/ntxtlf/m/n/9 (-20) log_women_farms 
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.03749pt on input line 836.
-<../figures/image6.png, id=569, 1004.553pt x 353.1594pt>
+(Font)              scaled to size 10.03749pt on input line 856.
+<../figures/image6.png, id=565, 1004.553pt x 353.1594pt>
 File: ../figures/image6.png Graphic file (type png)
 <use ../figures/image6.png>
-Package pdftex.def Info: ../figures/image6.png  used on input line 850.
+Package pdftex.def Info: ../figures/image6.png  used on input line 870.
 (pdftex.def)             Requested size: 372.0pt x 130.78008pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18
+ [17
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.854 
+l.874 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.905 
+l.925 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.905 
+l.925 
        <../figures/image6.png>]
-<../figures/image7.png, id=584, 714.9912pt x 425.4294pt>
+<../figures/image7.png, id=579, 714.9912pt x 425.4294pt>
 File: ../figures/image7.png Graphic file (type png)
 <use ../figures/image7.png>
-Package pdftex.def Info: ../figures/image7.png  used on input line 916.
+Package pdftex.def Info: ../figures/image7.png  used on input line 936.
 (pdftex.def)             Requested size: 372.0pt x 221.34789pt.
-<../figures/image8.png, id=585, 715.473pt x 425.4294pt>
+<../figures/image8.png, id=580, 715.473pt x 425.4294pt>
 File: ../figures/image8.png Graphic file (type png)
 <use ../figures/image8.png>
-Package pdftex.def Info: ../figures/image8.png  used on input line 930.
+Package pdftex.def Info: ../figures/image8.png  used on input line 950.
 (pdftex.def)             Requested size: 372.0pt x 221.1921pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20
+ [19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.934 
+l.954 
        <../figures/image7.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.969 \item T
+l.989 \item T
              he result is robust. We disaggregated the loans by source <../figu
 res/image8.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
@@ -1226,7 +1304,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-(sn-article-eng.bbl
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-article-
+eng.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -1245,22 +1324,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-Underfull \hbox (badness 1173) in paragraph at lines 917--925
-[]\T1/ntxtlf/m/n/10.03749 Omotayo, A.O., Omo-toso, A.B.: Climate-smart agri-cul
--tural tech-nol-ogy and gender-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [34])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-(sn-article-eng.aux)
+ [35]
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-article-
+eng.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1269,13 +1340,13 @@ Package rerunfilecheck Info: File `sn-article-eng.out' has not changed.
 (rerunfilecheck)             Checksum: 23327C948CE7C1FB15E1788F35259687;9358.
  ) 
 Here is how much of TeX's memory you used:
- 14531 strings out of 467871
- 227130 string characters out of 5418376
- 642657 words of memory out of 5000000
- 42962 multiletter control sequences out of 15000+600000
- 705650 words of font info for 128 fonts, out of 8000000 for 9000
+ 16891 strings out of 467871
+ 271885 string characters out of 5418376
+ 711671 words of memory out of 5000000
+ 45105 multiletter control sequences out of 15000+600000
+ 717546 words of font info for 230 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,13n,93p,1123b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,93p,1188b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb><C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1287,9 +1358,9 @@ grams/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/sadva/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/sadva/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/sadva/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on sn-article-eng.pdf (36 pages, 1850416 bytes).
+Output written on sn-article-eng.pdf (35 pages, 1860465 bytes).
 PDF statistics:
- 807 PDF objects out of 1000 (max. 8388607)
+ 806 PDF objects out of 1000 (max. 8388607)
  193 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 54065 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -14,22 +14,42 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{float}
+\usepackage{xurl}
+\usepackage[final]{microtype}
+\usepackage{tabularx}
 
 \makeatletter
 \providecommand{\headerps@out}[1]{}
+\renewcommand{\email}[1]{\global\advance\emailcnt by 1\relax%
+\if@corauemail%
+	\g@addto@macro\corrauthemail{%
+	\setcounter{footnote}{0}%
+	{\normalfont\ttfamily\small\textcolor{black}{\nolinkurl{#1}}};\space%
+	}%
+\else%
+	\g@addto@macro\authemail{%
+	\setcounter{footnote}{0}%
+	{\normalfont\ttfamily\small\textcolor{black}{\nolinkurl{#1}}};\space%
+	}%
+\fi}
 \makeatother
 
+\emergencystretch=2em
 \raggedbottom
 
 \begin{document}
 
 \title[Women's Entrepreneurship and Agricultural Lending]{The Impact of Agricultural Lending on Women's Entrepreneurship in Kazakhstan's Agricultural Sector: The Role of Regional Factors and Access to Land}
 
-\author[1]{\fnm{T.} \sur{Arzayeva}}
-\author*[1]{\fnm{B.} \sur{Aimurzina}}
-\author[1]{\fnm{Zh.} \sur{Bulakbay}}
-\author[1]{\fnm{G.} \sur{Mataibaeva}}
-\author[1]{\fnm{G.} \sur{Kodasheva}}
+\author[1]{\fnm{T.} \sur{Arzayeva}}\email{talanttyarzayeva@gmail.com}
+
+\author*[1]{\fnm{B.} \sur{Aimurzina}}\email{aimurzina2016@gmail.com}
+
+\author[1]{\fnm{Zh.} \sur{Bulakbay}}\email{bulakbay_zhannat@mail.ru}
+
+\author[1]{\fnm{G.} \sur{Mataibaeva}}\email{mataibaevagauhar@mail.ru}
+
+\author[1]{\fnm{R.} \sur{Sadvakassov}}\email{sadvakasov.rm@gmail.com}
 
 \affil*[1]{\orgname{L.N. Gumilyov Eurasian National University}, \orgaddress{\city{Astana}, \country{Kazakhstan}}}
 
@@ -40,8 +60,6 @@
 \pacs[JEL Classification]{Q14, J16, O13, Q12, O15}
 
 \maketitle
-
-\noindent\textbf{Funding.} This article was prepared within project AP26100879, ``Design and Implementation of an Inclusive Agricultural Development Model,'' supported under the 2025--2027 competition for grant funding for scientific and scientific-technical projects of the Ministry of Science and Higher Education of the Republic of Kazakhstan.
 
 \section{Introduction}\label{sec:introduction}
 
@@ -613,7 +631,7 @@ average number of women-owned farms is 3,127, but the range varies from
 14 to 20,551, indicating extremely uneven development of women's
 entrepreneurship in the agricultural sector.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \caption{Descriptive statistics of key variables}\label{tab:descriptive}
 \small
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.31\textwidth}rrrrrr@{}}
@@ -685,7 +703,7 @@ of women's entrepreneurship increases the demand for loans.
 
 \subsection{Panel regression results: econometric analysis}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \caption{Comparison of Pooled OLS and TWFE}\label{tab:pooled-twfe}
 \small
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.26\textwidth}rrrr@{}}
@@ -761,7 +779,7 @@ Stability test by decomposing lending into sources
 We replaced the aggregate lending indicator with three components: loans
 from Kazagrofinance JSC, Agrarian Credit Corporation JSC, and the
 Agricultural Financial Support Fund JSC
-\begin{table}[h]
+\begin{table}[htbp]
 \caption{Results of the model estimation by lending source}\label{tab:lending-source}%
 \small
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.28\textwidth}rrrrr@{}}
@@ -794,18 +812,20 @@ land, and the development trend -- regions were grouped into two
 clusters (optimality determined by the Silhouette Score criterion =
 0.400), table 4
 
-\begin{table}[h]
+\begin{table}[htbp]
 \caption{Regional cluster profiles}\label{tab:cluster-profiles}
 \scriptsize
 \renewcommand{\arraystretch}{1.1}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.12\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}p{0.12\textwidth}@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.12\textwidth}>{\centering\arraybackslash}p{0.11\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\centering\arraybackslash}p{0.12\textwidth}}
 \toprule
 Cluster & Number of regions & log\_women\_farms (mean value) & log\_credit\_total (mean value) & Share of land (average value, \%) & Growth trend (annual)\\
 \midrule
 Cluster 0 & 15 & 7.71 & 8.02 & 2.30 & 0.091\\
 Cluster 1 & 5 & 6.35 & 6.75 & 0.18 & 0.296\\
 \botrule
-\end{tabular*}
+\end{tabularx}
+\setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1}
 \end{table}
 
@@ -871,7 +891,7 @@ farming and to check for nonlinear relationships, we used the Random
 Forest method. The model was trained using group cross-validation
 (GroupKFold, 5 folds per region). This ensures that data from the same
 region are not included in both the training and test sets.
-\begin{table}[h]
+\begin{table}[htbp]
 \caption{Feature Importance from the Random Forest Model}\label{tab:feature-importance}%
 \small
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.46\textwidth}rr@{}}
@@ -1396,15 +1416,47 @@ combines financial instruments with institutional reforms represents the
 most promising path toward inclusive agricultural development in
 Kazakhstan and Central Asia.
 
-\section*{Data availability}
+\backmatter
+
+\section*{Acknowledgements}
+
+Not applicable.
+
+\section*{Declarations}
+
+\noindent\textbf{Funding}
+
+This article was written as part of project AP26100879: Design and
+Implementation of an Inclusive Agricultural Development Model. A
+competition for grant funding for scientific and/or scientific-technical
+projects for 2025--2027 (Ministry of Science and Higher Education of the
+Republic of Kazakhstan).
+
+\medskip
+\noindent\textbf{Competing interests}
+
+The authors declare no competing interests.
+
+\medskip
+\noindent\textbf{Ethics approval and consent to participate}
+
+This research does not involve human participants and does not include
+human data, individual persons' data, or human tissue.
+
+\medskip
+\noindent\textbf{Consent for publication}
+
+Not applicable.
+
+\medskip
+\noindent\textbf{Data availability}
 
 The data used in this study was obtained from publicly available
 official sources:
 
 \begin{itemize}
 \item National Statistics Bureau of the Agency for Strategic Planning
-and Reforms of the Republic of Kazakhstan:
-https://stat.gov.kz:
+and Reforms of the Republic of Kazakhstan: \url{https://stat.gov.kz/}
 \item Data on women-owned farms and agricultural lending
 (KazAgroFinance JSC, Agrarian Credit Corporation JSC, and Agricultural
 Financial Support Fund JSC) (Women and Men of Kazakhstan. Statistical
@@ -1413,13 +1465,34 @@ Compendium)
 the Ministry of Agriculture of the Republic of Kazakhstan: ``Proportion
 of women who have been granted agricultural land, broken down by form of
 ownership'' (2015--2024). National Statistics Bureau of the Agency for
-Strategic Planning and Reforms of the Republic of Kazakhstan
-https://stat.gov.kz/ru/sustainable-development-goals/goal/5/
+Strategic Planning and Reforms of the Republic of Kazakhstan:
+\url{https://stat.gov.kz/ru/sustainable-development-goals/goal/5/}
 \end{itemize}
 
 All data is presented in aggregated form at the regional level and have
 been processed in accordance with the terms of use of the relevant
 sources.
+
+\medskip
+\noindent\textbf{Materials availability}
+
+Not applicable.
+
+\medskip
+\noindent\textbf{Code availability}
+
+Not applicable.
+
+\medskip
+\noindent\textbf{Author contribution}
+
+Aimurzina B. developed the concept, supervised the entire study,
+collected and analyzed the data, wrote the initial draft, and reviewed
+it. Arzayeva T. participated in the concept development, validation,
+writing, and editing. Bulakbay Zh. participated in the concept
+development, writing, and editing. Mataibaeva G. participated in the
+concept development, writing, and editing. Sadvakassov R. participated
+in the concept development, data processing, validation, and editing.
 
 \bibliography{sn-bibliography}
 

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.27)  7 MAY 2026 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.27)  8 MAY 2026 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./test.tex
-(test.tex
+**r:/Work/My_Science_projects/Code_Baglan/publication_package/source/test.tex
+(r:/Work/My_Science_projects/Code_Baglan/publication_package/source/test.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
-(sn-jnl.cls
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\sn-jnl.cls
 Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
 nal articles
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -820,36 +820,79 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks41
 \@floatcapt=\box77
 )
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+\MT@toks=\toks42
+\MT@tempbox=\box78
+\MT@count=\count337
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks43
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen280
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count338
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip70
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen281
+\TX@old@table=\dimen282
+\TX@old@col=\dimen283
+\TX@target=\dimen284
+\TX@delta=\dimen285
+\TX@cols=\count339
+\TX@ftn=\toks44
+)
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 24.
+ 40.
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.03749pt on input line 24.
+(Font)              scaled to size 10.03749pt on input line 40.
 
-No file test.aux.
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -889,17 +932,17 @@ LaTeX Font Info:    ... okay on input line 24.
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen280
-\scratchbox=\box78
-\nofMPsegments=\count338
-\nofMParguments=\count339
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen281
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count340
+\scratchdimen=\dimen286
+\scratchbox=\box79
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen287
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks46
 )
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -911,66 +954,106 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \S on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 24.
+LaTeX Info: Redefining \S on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 24.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 24.
-Package hyperref Info: Link coloring ON on input line 24.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 40.
+Package hyperref Info: Link coloring ON on input line 40.
+
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\test.out)
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\test.out)
 \@outlinefile=\write3
 \openout3 = `test.out'.
 
-\c@mv@tabular=\count343
-\c@mv@boldtabular=\count344
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.03pt on input line 43.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.06374pt on input line 43.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 43.
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 43.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+\c@mv@tabular=\count346
+\c@mv@boldtabular=\count347
+LaTeX Info: Redefining \microtypecontext on input line 40.
+Package microtype Info: Applying patch `item' on input line 40.
+Package microtype Info: Applying patch `toc' on input line 40.
+Package microtype Info: Applying patch `eqnum' on input line 40.
+Package microtype Info: Applying patch `footnote' on input line 40.
+Package microtype Info: Applying patch `verbatim' on input line 40.
+LaTeX Info: Redefining \microtypesetup on input line 40.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
 
- (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.03pt on input line 63.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.06374pt on input line 63.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 63.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 63.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.43146pt on input line 43.
+(Font)              scaled to size 8.43146pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 43.
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 43
+(Font)              scaled to size 11.04124pt on input line 63.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 63
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.72884pt on input line 43.
+(Font)              scaled to size 7.72884pt on input line 63.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
+63.
+
+(C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 11.04124pt on input line 63.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 43.
+(Font)              scaled to size 9.0pt on input line 63.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.03374pt on input line 43.
+(Font)              scaled to size 9.03374pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.03pt on input line 43.
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 43
+(Font)              scaled to size 8.03pt on input line 63.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 63
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.03749pt on input line 44.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 46.
-
-
-Package natbib Warning: Citation `ref78' on page 1 undefined on input line 48.
-
-
-Package natbib Warning: Citation `ref62' on page 1 undefined on input line 48.
-
-
-Package natbib Warning: Citation `ref26' on page 1 undefined on input line 48.
-
+(Font)              scaled to size 14.05249pt on input line 64.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -978,568 +1061,107 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 {C:/Users/sadva/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/sadv
 a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
-
-Package natbib Warning: Citation `ref94' on page 2 undefined on input line 52.
-
-
-Package natbib Warning: Citation `ref99' on page 2 undefined on input line 52.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 64.
-
-Package natbib Warning: Citation `ref29' on page 2 undefined on input line 68.
-
-
-Package natbib Warning: Citation `ref44' on page 2 undefined on input line 68.
-
-
-Package natbib Warning: Citation `ref77' on page 2 undefined on input line 68.
-
+(Font)              scaled to size 12.045pt on input line 82.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-
-Package natbib Warning: Citation `ref81' on page 3 undefined on input line 72.
-
-
-Package natbib Warning: Citation `ref24' on page 3 undefined on input line 73.
-
-
-Package natbib Warning: Citation `ref27' on page 3 undefined on input line 74.
-
-
-Package natbib Warning: Citation `ref34' on page 3 undefined on input line 81.
-
-
-Package natbib Warning: Citation `ref90' on page 3 undefined on input line 81.
-
-
-Package natbib Warning: Citation `ref90' on page 3 undefined on input line 83.
-
-
-Package natbib Warning: Citation `ref105' on page 3 undefined on input line 86.
-
-
-
-Package natbib Warning: Citation `ref72' on page 3 undefined on input line 86.
-
-
-Package natbib Warning: Citation `ref43' on page 3 undefined on input line 86.
-
-
-Package natbib Warning: Citation `ref37' on page 3 undefined on input line 86.
-
-
-Package natbib Warning: Citation `ref104' on page 3 undefined on input line 86.
-
-
-
-Package natbib Warning: Citation `ref28' on page 3 undefined on input line 89.
-
-
-Package natbib Warning: Citation `ref38' on page 3 undefined on input line 98.
-
-
-Package natbib Warning: Citation `ref55' on page 3 undefined on input line 104.
-
-
-
-Package natbib Warning: Citation `ref47' on page 3 undefined on input line 114.
-
-
-
-Package natbib Warning: Citation `ref64' on page 3 undefined on input line 114.
-
-
-
-Package natbib Warning: Citation `ref96' on page 3 undefined on input line 114.
-
-
-
-Package natbib Warning: Citation `ref21' on page 3 undefined on input line 121.
-
-
-
-Package natbib Warning: Citation `ref81' on page 3 undefined on input line 132.
-
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 140.
+e 158.
 
 (C:\Users\sadva\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.03749pt on input line 140.
-
-
-Package natbib Warning: Citation `ref90' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref58' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref42' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref71' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref44' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref97' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref84' on page 4 undefined on input line 144.
-
-
-
-Package natbib Warning: Citation `ref20' on page 4 undefined on input line 150.
-
-
-
-Package natbib Warning: Citation `ref06' on page 4 undefined on input line 150.
-
-
-
-Package natbib Warning: Citation `ref18' on page 4 undefined on input line 154.
-
-
-
-Package natbib Warning: Citation `ref63' on page 4 undefined on input line 165.
-
-
-
-Package natbib Warning: Citation `ref76' on page 4 undefined on input line 165.
-
-
-
-Package natbib Warning: Citation `ref56' on page 4 undefined on input line 180.
-
-
-
-Package natbib Warning: Citation `ref80' on page 4 undefined on input line 180.
-
-
-
-Package natbib Warning: Citation `ref87' on page 4 undefined on input line 183.
-
-
-
-Package natbib Warning: Citation `ref74' on page 4 undefined on input line 192.
-
-
-
-Package natbib Warning: Citation `ref13' on page 4 undefined on input line 192.
-
-
-
-Package natbib Warning: Citation `ref73' on page 4 undefined on input line 192.
-
-
+(Font)              scaled to size 10.03749pt on input line 158.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4{C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1
 .enc}]
-
-Package natbib Warning: Citation `ref60' on page 5 undefined on input line 205.
-
-
-
-Package natbib Warning: Citation `ref88' on page 5 undefined on input line 205.
-
-
-
-Package natbib Warning: Citation `ref78' on page 5 undefined on input line 213.
-
-
-
-Package natbib Warning: Citation `ref26' on page 5 undefined on input line 213.
-
-
-
-Package natbib Warning: Citation `ref02' on page 5 undefined on input line 213.
-
-
-
-Package natbib Warning: Citation `ref32' on page 5 undefined on input line 213.
-
-
-
-Package natbib Warning: Citation `ref36' on page 5 undefined on input line 213.
-
-
-
-Package natbib Warning: Citation `ref66' on page 5 undefined on input line 213.
-
-
-
-Package natbib Warning: Citation `ref26' on page 5 undefined on input line 217.
-
-
-
-Package natbib Warning: Citation `ref20' on page 5 undefined on input line 217.
-
-
-
-Package natbib Warning: Citation `ref06' on page 5 undefined on input line 217.
-
-
-
-Package natbib Warning: Citation `ref78' on page 5 undefined on input line 227.
-
-
-
-Package natbib Warning: Citation `ref93' on page 5 undefined on input line 227.
-
-
-
-Package natbib Warning: Citation `ref04' on page 5 undefined on input line 227.
-
-
-
-Package natbib Warning: Citation `ref48' on page 5 undefined on input line 233.
-
-
-
-Package natbib Warning: Citation `ref11' on page 5 undefined on input line 233.
-
-
-
-Package natbib Warning: Citation `ref82' on page 5 undefined on input line 237.
-
-
-
-Package natbib Warning: Citation `ref82' on page 5 undefined on input line 242.
-
-
-
-Package natbib Warning: Citation `ref75' on page 5 undefined on input line 242.
-
-
-
-Package natbib Warning: Citation `ref02' on page 5 undefined on input line 242.
-
-
-
-Package natbib Warning: Citation `ref57' on page 5 undefined on input line 249.
-
-
-
-Package natbib Warning: Citation `ref31' on page 5 undefined on input line 249.
-
-
-
-Package natbib Warning: Citation `ref05' on page 5 undefined on input line 249.
-
-
-
-Package natbib Warning: Citation `ref106' on page 5 undefined on input line 249
-.
-
-
-Package natbib Warning: Citation `ref67' on page 5 undefined on input line 254.
-
-
-
-Package natbib Warning: Citation `ref50' on page 5 undefined on input line 254.
-
-
-
-Package natbib Warning: Citation `ref92' on page 5 undefined on input line 257.
-
-
-
-Package natbib Warning: Citation `ref20' on page 5 undefined on input line 265.
-
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-
-Package natbib Warning: Citation `ref60' on page 6 undefined on input line 275.
-
-
-
-Package natbib Warning: Citation `ref91' on page 6 undefined on input line 280.
-
-
-
-Package natbib Warning: Citation `ref14' on page 6 undefined on input line 288.
-
-
-
-Package natbib Warning: Citation `ref68' on page 6 undefined on input line 290.
-
-
-
-Package natbib Warning: Citation `ref46' on page 6 undefined on input line 290.
-
-
-
-Package natbib Warning: Citation `ref94' on page 6 undefined on input line 292.
-
-
-
-Package natbib Warning: Citation `ref88' on page 6 undefined on input line 293.
-
-
-
-Package natbib Warning: Citation `ref16' on page 6 undefined on input line 293.
-
-
-
-Package natbib Warning: Citation `ref35' on page 6 undefined on input line 298.
-
-
-
-Package natbib Warning: Citation `ref23' on page 6 undefined on input line 298.
-
-
-
-Package natbib Warning: Citation `ref62' on page 6 undefined on input line 298.
-
-
-
-Package natbib Warning: Citation `ref99' on page 6 undefined on input line 303.
-
-
-
-Package natbib Warning: Citation `ref25' on page 6 undefined on input line 308.
-
-
-
-Package natbib Warning: Citation `ref85' on page 6 undefined on input line 309.
-
-
-
-Package natbib Warning: Citation `ref99' on page 6 undefined on input line 311.
-
-
-
-Package natbib Warning: Citation `ref89' on page 6 undefined on input line 313.
-
-
-
-Package natbib Warning: Citation `ref19' on page 6 undefined on input line 313.
-
-
-
-Package natbib Warning: Citation `ref39' on page 6 undefined on input line 320.
-
-
-
-Package natbib Warning: Citation `ref06' on page 6 undefined on input line 320.
-
-
-
-Package natbib Warning: Citation `ref102' on page 6 undefined on input line 320
-.
-
-
-Package natbib Warning: Citation `ref52' on page 6 undefined on input line 320.
-
-
-
-Package natbib Warning: Citation `ref12' on page 6 undefined on input line 320.
-
-
-
-Package natbib Warning: Citation `ref79' on page 6 undefined on input line 321.
-
-
-
-Package natbib Warning: Citation `ref40' on page 6 undefined on input line 321.
-
-
-
-Package natbib Warning: Citation `ref08' on page 6 undefined on input line 321.
-
-
-
-Package natbib Warning: Citation `ref09' on page 6 undefined on input line 321.
-
-
-
-Package natbib Warning: Citation `ref69' on page 6 undefined on input line 321.
-
-
-
-Package natbib Warning: Citation `ref21' on page 6 undefined on input line 331.
-
-
-
-Package natbib Warning: Citation `ref17' on page 6 undefined on input line 331.
-
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-
-Package natbib Warning: Citation `ref10' on page 7 undefined on input line 354.
-
-
-
-Package natbib Warning: Citation `ref03' on page 7 undefined on input line 354.
-
-
-
-Package natbib Warning: Citation `ref30' on page 7 undefined on input line 354.
-
-
-
-Package natbib Warning: Citation `ref41' on page 7 undefined on input line 354.
-
-
-
-Package natbib Warning: Citation `ref59' on page 7 undefined on input line 354.
-
-
-
-Package natbib Warning: Citation `ref07' on page 7 undefined on input line 358.
-
-
-
-Package natbib Warning: Citation `ref15' on page 7 undefined on input line 358.
-
-
-
-Package natbib Warning: Citation `ref51' on page 7 undefined on input line 358.
-
-
-
-Package natbib Warning: Citation `ref22' on page 7 undefined on input line 373.
-
-
-
-Package natbib Warning: Citation `ref53' on page 7 undefined on input line 373.
-
-
-
-Package natbib Warning: Citation `ref101' on page 7 undefined on input line 373
-.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 383.
+(Font)              scaled to size 8.0pt on input line 401.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 383.
+(Font)              scaled to size 8.0pt on input line 401.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.399 \item L
-             and use data from the Land resources management committee of the]
-
-Package natbib Warning: Citation `ref100' on page 8 undefined on input line 459
-.
-
+l.462 l
+       and\_share -- the share of agricultural land allocated to women (as a]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.04124pt on input line 470.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
+(Font)              scaled to size 11.04124pt on input line 488.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.03749pt on input line 493.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.03749pt on input line 475.
+(Font)              scaled to size 10.03749pt on input line 493.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0262pt on input line 482.
+(Font)              scaled to size 7.0262pt on input line 500.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.01874pt on input line 482.
+(Font)              scaled to size 5.01874pt on input line 500.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-
-Package natbib Warning: Citation `ref45' on page 10 undefined on input line 554
-.
-
-
-Package natbib Warning: Citation `ref83' on page 10 undefined on input line 562
-.
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 568--571
-\T1/ntxtlf/m/n/10.03749 log_credit_total, log_credit_kaf, log_credit_acc, log_c
-redit_fund, lag1_log_credit_total,
- []
-
-
-Package natbib Warning: Citation `ref65' on page 10 undefined on input line 585
-.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 618.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.651 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.651 
+l.669 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.694 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \subsection
-                 {Panel regression results: econometric analysis}
+l.694 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \subsection
-                 {Panel regression results: econometric analysis}]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
+l.742 T
+       he Pooled OLS model showed that the higher the volume of lending, the
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.751 
-      ]
-Overfull \hbox (37.67523pt too wide) in alignment at lines 801--808
-[] [] [] [] [] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+l.742 T
+       he Pooled OLS model showed that the higher the volume of lending, the]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14
@@ -1547,21 +1169,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.816 C
-       luster analysis divided the regions into two groups.
+l.804 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.816 C
-       luster analysis divided the regions into two groups.]
-Underfull \hbox (badness 1521) in paragraph at lines 818--825
-[]\T1/ntxtlf/m/n/10.03749 Cluster 0 (15 regions) -- rural areas with a high lev
-el of women's farm-ing
+l.804 
+      ]
+Overfull \hbox (1.18002pt too wide) in paragraph at lines 827--827
+[]|\T1/ntxtlf/m/n/9 (-20) log_women_farms 
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.03749pt on input line 837.
+(Font)              scaled to size 10.03749pt on input line 857.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1570,40 +1191,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.866 
-      
+l.867 T
+       he results are consistent with the findings of fixed-effects models.]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.866 
-      ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16
+l.917 T
+       he data in table 5 shows that loans provided through the Agricultural
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.921 
-      ]
-
-Package natbib Warning: Citation `ref56' on page 17 undefined on input line 938
-.
-
-
-Package natbib Warning: Citation `ref38' on page 17 undefined on input line 938
-.
-
-
-Package natbib Warning: Citation `ref105' on page 17 undefined on input line 93
-8.
-
-
-Package natbib Warning: Citation `ref18' on page 17 undefined on input line 944
-.
-
-
+l.917 T
+       he data in table 5 shows that loans provided through the Agricultural]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17
@@ -1611,95 +1215,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.969 
+l.965 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.969 
+l.965 
       ]
-
-Package natbib Warning: Citation `ref78' on page 18 undefined on input line 103
-0.
-
-
-Package natbib Warning: Citation `ref90' on page 18 undefined on input line 103
-0.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-
-Package natbib Warning: Citation `ref78' on page 19 undefined on input line 106
-1.
-
-
-Package natbib Warning: Citation `ref90' on page 19 undefined on input line 106
-1.
-
-
-Package natbib Warning: Citation `ref18' on page 19 undefined on input line 106
-5.
-
-
-Package natbib Warning: Citation `ref56' on page 19 undefined on input line 106
-5.
-
-
-Package natbib Warning: Citation `ref43' on page 19 undefined on input line 107
-0.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-
-Package natbib Warning: Citation `ref20' on page 20 undefined on input line 111
-4.
-
-
-Package natbib Warning: Citation `ref06' on page 20 undefined on input line 111
-4.
-
-
-Package natbib Warning: Citation `ref26' on page 20 undefined on input line 111
-7.
-
-
-Package natbib Warning: Citation `ref02' on page 20 undefined on input line 111
-7.
-
-
-Package natbib Warning: Citation `ref21' on page 20 undefined on input line 113
-0.
-
-
-Package natbib Warning: Citation `ref54' on page 20 undefined on input line 113
-0.
-
-
-Package natbib Warning: Citation `ref44' on page 20 undefined on input line 114
-1.
-
-
-Package natbib Warning: Citation `ref27' on page 20 undefined on input line 114
-2.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-
-Package natbib Warning: Citation `ref36' on page 21 undefined on input line 118
-1.
-
-
-Package natbib Warning: Citation `ref52' on page 21 undefined on input line 118
-9.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
@@ -1709,52 +1241,53 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-
-Package natbib Warning: Citation `ref78' on page 24 undefined on input line 135
-9.
-
-
-Package natbib Warning: Citation `ref90' on page 24 undefined on input line 135
-9.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-No file test.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-(test.aux)
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\test.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+(r:\Work\My_Science_projects\Code_Baglan\publication_package\source\test.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `test.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `test.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  23327C948CE7C1FB15E1788F35259687;9358.
+Package rerunfilecheck Info: File `test.out' has not changed.
+(rerunfilecheck)             Checksum: 23327C948CE7C1FB15E1788F35259687;9358.
  ) 
 Here is how much of TeX's memory you used:
- 13987 strings out of 467871
- 219104 string characters out of 5418376
- 639054 words of memory out of 5000000
- 42536 multiletter control sequences out of 15000+600000
- 705650 words of font info for 128 fonts, out of 8000000 for 9000
+ 16833 strings out of 467871
+ 270047 string characters out of 5418376
+ 711349 words of memory out of 5000000
+ 45049 multiletter control sequences out of 15000+600000
+ 717546 words of font info for 230 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,13n,93p,1113b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,93p,1178b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb><C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1766,9 +1299,9 @@ grams/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/sadva/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/sadva/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/sadva/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on test.pdf (25 pages, 277540 bytes).
+Output written on test.pdf (33 pages, 393188 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 780 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 54025 words of extra memory for PDF output out of 61914 (max. 10000000)
 
