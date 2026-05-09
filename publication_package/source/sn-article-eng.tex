@@ -19,6 +19,8 @@
 
 \makeatletter
 \providecommand{\headerps@out}[1]{}
+\providecommand{\theHfigure}{}
+\providecommand{\theHtable}{}
 \renewcommand{\email}[1]{\global\advance\emailcnt by 1\relax%
 \if@corauemail%
 	\g@addto@macro\corrauthemail{%
@@ -31,10 +33,15 @@
 	{\normalfont\ttfamily\small\textcolor{black}{\nolinkurl{#1}}};\space%
 	}%
 \fi}
+\renewcommand{\theHfigure}{\arabic{figure}.\arabic{page}}
+\renewcommand{\theHtable}{\arabic{table}.\arabic{page}}
+\AtBeginDocument{\hypersetup{hypertexnames=false}}
 \makeatother
 
 \emergencystretch=2em
 \raggedbottom
+\vbadness=10000
+\hfuzz=2pt
 
 \begin{document}
 
@@ -52,7 +59,7 @@
 
 \affil*[1]{\orgname{L.N. Gumilyov Eurasian National University}, \orgaddress{\city{Astana}, \country{Kazakhstan}}}
 
-\abstract{Women's entrepreneurship in agriculture is recognized as an important factor in inclusive growth; however, empirical evidence from Central Asian transition economies remains limited. This study analyzes the causal influence of institutional agricultural lending on the development of women-owned farms across 20 regions of Kazakhstan during 2015--2024 using 175 observations. The empirical design combines two-way fixed-effects panel regressions, k-means clustering, and Random Forest models. The results show that credit has a positive cross-sectional association with women-led farming in pooled specifications, but does not retain a statistically significant causal effect after regional and time fixed effects are introduced. Regional clustering reveals distinct development paths, while access to land emerges as a binding institutional constraint that limits the effectiveness of financial support. The findings suggest that agricultural policy should move beyond uniform lending expansion and combine financial instruments with land-access and region-specific institutional reforms.}
+\abstract{Women's entrepreneurship in agriculture is recognized as an important factor in inclusive growth; however, empirical data on the transition economies of Central Asia remain underresearched. This study analyzes the causal influence of institutional agricultural lending on the development of women-owned farms in 20 regions of Kazakhstan over the period 2015--2024 (175 observations). We employ a three-module analytical approach: (1) two-way fixed-effects panel regressions to identify causal relationships; (2) k-means clustering to account for regional heterogeneity; and (3) the random forest method to assess the predictive power of variables. Access to credit does not have a statistically significant causal effect on the number of female-headed farms in the region after controlling for fixed effects, despite a positive correlation in the pooled OLS model. The clustering results reveal two distinct regional groups: the first is characterized by a high level of female farming but relatively low growth, whereas the second starts from lower initial indicators but grows three times faster. In neither group do we find evidence that lending specifically drives this dynamic. Access to land emerges as the more significant factor: on average, women own only 2.01\% of agricultural land (median 1.19\%), which acts as an institutional constraint on female entrepreneurship. These findings indicate that simply increasing the volume of lending is insufficient and that differentiated, region-specific measures combining financial instruments with reforms in land rights and regional infrastructure are required.}
 
 \keywords{agricultural lending, women's entrepreneurship, financial inclusion, regional heterogeneity, Kazakhstan, inclusive development, land access}
 
@@ -66,13 +73,13 @@ Women's entrepreneurship in agriculture is increasingly recognized as a key driv
 
 Kazakhstan retains a substantial state role in agricultural finance through institutions such as KazAgroFinance JSC, the Agrarian Credit Corporation JSC, and the Fund for Financial Support of Agriculture JSC. At the same time, the share of women heading farms remains low, and women's control over agricultural land is especially limited: on average, only 2.01\% of agricultural land is registered to women, with a median of 1.19\%.
 
-The question of how access to finance affects farmers' performance has been widely studied in the literature \citep{ref94,ref99}. However, most empirical studies have at least three limitations. First, they rely on cross-sectional data and therefore do not clearly distinguish correlation from causation. Second, their geographical focus is concentrated in Africa and South Asia, while post-Soviet countries with distinct institutional legacies remain largely outside the evidence base. Third, the interaction between lending and access to land is rarely examined, although this combination may be decisive for women farmers.
+The question of how access to finance affects farmers' performance has been widely studied in the literature \citep{ref94,ref99}. However, most empirical studies have at least three limitations. First, they rely on cross-sectional data and therefore do not clearly distinguish correlation from causation. Second, their geographical focus is concentrated in Africa and South Asia, while post-Soviet countries with distinct institutional legacies remain largely outside the evidence base. Third, there is a lack of research examining the relationship between lending and access to land. This combination may be key for women farmers, as our preliminary data show.
 
 This study addresses these gaps by analyzing panel data for 20 regions of Kazakhstan over a 10-year period (2015--2024, 175 observations). The contribution of this work is threefold. First, it identifies the channels through which institutional agricultural lending may influence the development of women-owned farms in the Central Asian context. Second, it applies a three-module analytical design that combines fixed-effects econometrics, cluster analysis, and machine learning to disentangle interregional correlation, intraregional dynamics, and predictive importance. Third, it tests whether access to land acts as a binding institutional constraint that reduces the potential impact of financial support.
 
 Based on the theoretical discussion and gaps in the literature, the study tests three hypotheses. H1: access to institutional agricultural lending has no statistically significant effect on the number of women-owned farms within regions. H2: the relationship between lending and women's entrepreneurial outcomes is heterogeneous and varies with regional infrastructure and institutional capacity. H3: access to land (land\_share) positively moderates the effect of lending, but its institutional limitation reduces the overall effectiveness of financial support.
 
-The empirical strategy is based on an unbalanced panel combining data from the National Statistics Bureau of the Republic of Kazakhstan, state agricultural financial institutions, and the Land Resources Management Committee. We estimate two-way fixed-effects models with regional clustering of standard errors, apply k-means clustering to identify stable regional regimes, and use Random Forest with group cross-validation to assess predictive power.
+The empirical strategy is based on an unbalanced panel combining data from the National Statistics Bureau of the Republic of Kazakhstan, state agricultural financial institutions, and the Land Resources Management Committee. We estimate two-way fixed-effects models with regional clustering of standard errors, apply k-means clustering to identify stable regional regimes, and use random forest with group cross-validation to assess predictive power.
 
 The remainder of the article is organized as follows. Section 2 reviews the literature and develops the conceptual framework. Section 3 describes the data, variables, and analytical framework. Section 4 presents the empirical results. Section 5 discusses the findings in relation to prior research. Section 6 develops policy recommendations for Kazakhstan's agricultural sector. Section 7 concludes.
 
@@ -151,17 +158,53 @@ others focus on innovation and the advancement of gender equality
 (Dabkienė, 2025) and on measuring women's empowerment and its impact on
 productivity (Doss, 2025). Using a three-module analytical approach, we
 emphasize the need for a comprehensive, multidimensional assessment of
-productivity:
+inclusivity.
+
+The literature also reveals a contradiction in the assessment of the
+role of large agro-industrial enterprises. Partnership with large
+companies is often viewed as a driver of inclusive growth
+\citep{ref34}, whereas other studies show that large farms can dictate
+terms and exacerbate inequality among smallholder producers
+\citep{ref90}.
+
+Discussion of technological and digital innovations follows a similar
+pattern. Some studies regard digitalization as a mechanism for reducing
+transaction costs and expanding access to resources \citep{ref105,ref72,ref43,ref37,ref104},
+while others argue that without institutional reform these tools may
+reinforce existing asymmetries \citep{ref28}.
+
+\citet{ref55} identifies five key areas for the inclusive
+transformation of rural areas, including addressing the interests of
+marginalized groups and ensuring equal access to technology.
+
+A review of the theoretical framework revealed that inclusive
+agricultural development depends on institutional conditions,
+technological infrastructure, and social mechanisms. The identified
+contradictions justify the need for our study, which focuses on two key
+factors: access to credit as a financial mechanism and access to land as
+an institutional barrier.
+
+\subsection{Financial inclusion: correlation and causality}
+
+In existing studies, expanded access to financial resources is
+predominantly viewed as an important factor in entrepreneurial growth
+\citep{ref103}.
+
+A positive correlation between the volume of lending and agricultural
+growth has been demonstrated in the following studies
+\citep{ref94,ref99,ref70,ref49,ref95,ref97,ref61}.
+
+We identify three methodological limitations:
 
 \begin{itemize}
-\item most cross-sectional studies are based on cross-sectional
+\item Most cross-sectional studies are based on cross-sectional
 surveys, making it impossible to identify the causes of correlations;
 \item the authors of these studies and their geographical focus are
 concentrated primarily in African countries and South Asia
 \citep{ref90,ref58,ref42,ref71,ref44,ref97,ref84}. Post-Soviet countries, including Kazakhstan, with their
 unique institutional legacy, remain outside the scope of this analysis.
 However, their experience may differ significantly;
-\item institutional constraints are overlooked. Research on financing
+\item Institutional constraints are overlooked. Research on financing
 rarely addresses access to land. However, for the agricultural sector,
 land is not only a productive resource but also a key collateral asset
 \citep{ref20,ref06}. Without taking this factor into
@@ -186,23 +229,23 @@ system, unstable farm incomes, low liquidity of collateral, and a lack
 of technological and financial support. Each of these factors deserves
 separate attention.
 
-The issue of where agriculture remains a priority is a pressing one for
+The issue of where agriculture remains a priority is pressing for
 Kazakhstan. Government policy is focused not only on developing the
-financial sector; this year has been declared the year of digitalization
-in Kazakhstan. This is being done to address issues such as the
+financial sector; this year was declared the year of digitalization in
+Kazakhstan. This is being done to address issues such as the
 reallocation of resources in agriculture, infrastructure development,
-and expanding access to lending primarily for small farms through the
+and expanding access to lending, primarily for small farms, through the
 use of digital inclusive finance as an alternative to traditional forms
-of support. These aspects are addressed in the works of many scholars,
-such as \citep{ref56,ref80}.
+of support. These aspects are addressed in the works of many scholars
+\citep{ref56,ref80}.
 
 The key role of digital finance in promoting the sustainable development
-of rural regions is explored in the study by \citet{ref87}.
+of rural regions was explored by \citet{ref87}.
 The authors demonstrate that investment in digital infrastructure is
 necessary to ensure the sustainable modernization of the agricultural
 sector.
 
-In developing countries, this modernization is often constrained by a
+In developing countries, modernization is often constrained by a
 combination of resource and institutional limitations. In response,
 comprehensive programs have emerged. Governmental and non-governmental
 organizations combine the provision of loans with training for farmers
@@ -220,7 +263,7 @@ In our view, two competing approaches can be identified in the
 literature on gender development in agriculture.
 
 The financial approach \citep{ref60,ref88} emphasizes expanding access to microfinance and banking
-services as a key mechanism for women's empowerment. It demonstrates a
+services as a key mechanism for women's empowerment. This finding demonstrates a
 positive correlation between access to finance and entrepreneurial
 outcomes.
 
@@ -237,10 +280,10 @@ justified the need for land rights. However, the institutional
 environment in which they are studied differs from that existing in the
 Kazakhstan's economy.
 
-In summary, it can be noted that ensuring gender equality and social
-integration in agriculture --
+In summary, ensuring gender equality and social integration in
+agriculture can be described as follows:
 
-from production processes to social relations and institutional
+From production processes to social relations and institutional
 mechanisms is the subject of academic debate \citep{ref78,ref93,ref04}. Successful inclusion
 requires taking the gender dimension into account throughout the entire
 process, from planning to monitoring.
@@ -359,7 +402,7 @@ learning methods applied to the agricultural economy are virtually
 nonexistent.
 
 Our study aims to fill this gap. We integrate three analytical modules
--- TWFE, k-means, and Random Forest. This allows us not only to identify
+-- TWFE, k-means, and random forest. This allows us not only to identify
 regional heterogeneity in Kazakhstan but also to assess the robustness
 of the results obtained.
 
@@ -384,15 +427,12 @@ binding constraint that reduces the impact of lending?
 
 \section{Research methodology}
 
-The systematic logic of the study's design ensures a phased approach to
-addressing the following tasks: first, the presence of a causal
-relationship is verified through panel econometric analysis
-\citep{ref22,ref53,ref101}; second, the structural context of the
-phenomenon is revealed through cluster analysis; and third, the
-predictive significance of the results is confirmed through machine
-learning methods.
-
-Figure 1.
+The systematic logic of the study's design follows a three-stage
+sequence. First, the presence of a causal relationship is tested
+through panel econometric analysis \citep{ref22,ref53,ref101}. Second,
+the structural context of the phenomenon is examined through cluster
+analysis. Third, the predictive significance of the results is assessed
+through machine learning methods.
 
 \begin{figure}[H]
 \centering
@@ -413,8 +453,8 @@ Planning and Reforms of the Republic of Kazakhstan https://stat.gov.kz/:
 JSC, Agrarian Credit Corporation JSC, and the Agricultural Financial
 Support Fund JSC for 2015--2024: (Women and men of Kazakhstan.
 Statistical compendium)
-\item Land use data from the Land resources management committee of the
-Ministry of agriculture of the Republic of Kazakhstan: ``Proportion of
+\item Land use data from the Land Resources Management Committee of the
+Ministry of Agriculture of the Republic of Kazakhstan: ``Proportion of
 women provided by agricultural land, broken down by form of ownership''
 (2015--2024).
 \end{itemize}
@@ -426,7 +466,7 @@ variables is presented in Table 1.
 
 \subsection{Description of variables and transformation}
 
-A logarithmic transformation was applied to to bring the data to
+A logarithmic transformation was applied to prepare the data for
 econometric modeling. The transformation log(1 + x) was used for the
 variables women\_farms and the lending indicators. This approach
 normalizes the distribution and allows the regression coefficients to be
@@ -493,10 +533,14 @@ which allowed us to account for regional heterogeneity.
 
 In the first stage of our study, we estimate the relationship between
 variables without considering the data structure (Equation 1), using the
-combined Pooled OLS model, which treats panel data as a single
+combined pooled OLS model, which treats panel data as a single
 cross-sectional sample.
 
-log$_i$t = $\beta_0 + \beta_1 \log(\text{credit})_{it} + \beta_2 \log(\text{land})_{it} + \mu_{it}$ (1)
+$$
+\log(\text{women\_farms})_{it} = \beta_0 + \beta_1 \log(\text{credit\_total})_{it} + \beta_2 \, \text{land\_share}_{it} + \mu_{it}
+$$
+
+(1)
 
 \paragraph{Fixed-effects model}
 
@@ -529,7 +573,7 @@ However, this model does not reveal the underlying causes.
 TWFE compares each region with itself and shows the impact of lending on
 product output. With this in mind, we have selected this model.
 
-A comparison of the Pooled OLS and TWFE models shows that if a variable
+A comparison of the pooled OLS and TWFE models shows that if a variable
 is significant in the first model but loses significance in the second,
 the observed correlation is explained by structural differences between
 regions rather than the level of lending support. In other words, large
@@ -544,7 +588,7 @@ log\_credit\_fund -- loans from KazAgroFinance, Agrarian Credit
 Corporation, and the Financial Support Fund) and performed separate
 regression calculations.
 
-\subsubsection{Module 2: Analysis of regional heterogeneity via clustering}
+\subsubsection{Module 2: Analysis of regional heterogeneity by clustering}
 
 We applied cluster analysis using the k-means algorithm. Regions were
 grouped based on seven characteristics:
@@ -573,10 +617,10 @@ of the algorithm with different initial centers. This approach allowed
 us to determine whether the relationship between lending and women's
 farming differs across regions with similar structural characteristics.
 
-\subsubsection{Module 3: Machine learning for predictive power and non-linearity assessment}
+\subsubsection{Module 3: Machine learning for predictive power and nonlinearity assessment}
 
 In addition to the causal inferences derived from econometric models, we
-applied the Random Forest algorithm \citep{ref83}. The
+applied the random forest algorithm \citep{ref83}. The
 objective was to assess the relative predictive power (importance of
 features) of lending variables and the land access variable, as well as
 to explore potential nonlinear relationships that may not be apparent in
@@ -649,6 +693,23 @@ log\_credit\_total & 7.76 & 1.14 & 2.17 & 7.88 & 11.20 & 170\\
 \end{tabular*}
 \end{table}
 
+Given the high interregional variability (standard deviation of 6,236.5
+million tenges), the average volume of institutional agricultural
+lending amounts to 3,983.5 million tenges. We observe that the highest
+percentage of missing values is found in the credit\_fund variable
+(39\%) (loans from the JSC ``Financial Support Fund''). The reason is
+that in 2015--2018, these loans were not issued in cities of national
+importance (Astana, Almaty, Shymkent) or in new regions (Abai,
+Zhetysu, Ulytau).
+
+At the same time, a critically important observation is the extremely
+low share of land allocated to women (an average of just 2.01\%, with a
+median of 1.19\%). This is a more serious barrier than access to loans,
+meaning that in most regions, women do not own land. Thus, although the
+number of farms and the volume of loans vary, the analysis shows that
+women's limited access to land remains one of the main limiting
+factors.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,keepaspectratio]{../figures/image2.png}
@@ -659,11 +720,11 @@ log\_credit\_total & 7.76 & 1.14 & 2.17 & 7.88 & 11.20 & 170\\
 Although the volume of loans increased from 3 billion tenge to 4.5
 billion tenge, this growth was concentrated in regions with more
 developed infrastructure (Figure 2). Econometric analysis confirms this
-conclusion. Pooled OLS summary data shows a positive correlation between
+conclusion. Pooled OLS summary data show a positive correlation between
 the number of farms owned by women and the volume of loans. However,
 when accounting for regional fixed effects using TWFE, this correlation
 disappears. The main conclusion is that financial institutions such as
-Kazagrofinance, the Agrarian Credit Corporation, and the Agricultural
+KazAgroFinance, the Agrarian Credit Corporation, and the Agricultural
 Financial Support Fund focus on supporting developed regions.
 
 \begin{figure}[H]
@@ -677,7 +738,7 @@ The scatter plot (Figure 3) shows a significant correlation between the
 volume of institutional lending and the number of farms owned by women
 (r = 0.576, p \textless{} 0.001). Regions with high levels of lending
 are characterized by a large number of farms. Estimation of the two-way
-fixed-effects (TWFE) model showed that after accounting of regional
+fixed-effects (TWFE) model showed that after accounting for regional
 differences, the coefficient of the lending variable decreased from
 0.725 to 0.044 and lost statistical significance (p = 0.576). This
 implies that lending flows to developed regions but does not stimulate
@@ -703,7 +764,7 @@ of women's entrepreneurship increases the demand for loans.
 \subsection{Panel regression results: econometric analysis}
 
 \begin{table}[htbp]
-\caption{Comparison of Pooled OLS and TWFE}\label{tab:pooled-twfe}
+\caption{Comparison of pooled OLS and TWFE}\label{tab:pooled-twfe}
 \small
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.26\textwidth}rrrr@{}}
 \toprule
@@ -738,7 +799,7 @@ variation in the dependent variable. The land access variable
 land\_share is also significant at the 10\% level, confirming the
 importance of land rights for women.
 
-The Pooled OLS model showed that the higher the volume of lending, the
+The pooled OLS model showed that the higher the volume of lending, the
 greater the number of farms. However, this is because these regions
 initially have better infrastructure and access to the loans. In other
 words, the specification of this model does not account for these
@@ -762,11 +823,11 @@ institutional reforms, including expanding women's access to land.
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,keepaspectratio]{../figures/image5.png}
-\caption{Comparison of the Pooled OLS and TWFE models}
+\caption{Comparison of the pooled OLS and TWFE models}
 \label{fig:pooled-vs-twfe}
 \end{figure}
 
-Figure 5 clearly shows that in the Pooled OLS model, the credit
+Figure 5 clearly shows that in the pooled OLS model, the credit
 coefficient is positive at 0.725 (p \textless{} 0.001) and significant.
 In the TWFE model, it is practically zero (0.0443) and crosses the zero
 line on the graph. This confirms that the observed interregional
@@ -776,8 +837,9 @@ of lending on women's entrepreneurship.
 Stability test by decomposing lending into sources
 
 We replaced the aggregate lending indicator with three components: loans
-from Kazagrofinance JSC, Agrarian Credit Corporation JSC, and the
-Agricultural Financial Support Fund JSC
+from KazAgroFinance JSC, Agrarian Credit Corporation JSC, and the
+Agricultural Financial Support Fund JSC.
+
 \begin{table}[htbp]
 \caption{Results of the model estimation by lending source}\label{tab:lending-source}%
 \small
@@ -809,16 +871,16 @@ Based on seven indicators -- mean values and standard deviations of the
 number of women-owned farms and the volume of lending, the share of
 land, and the development trend -- regions were grouped into two
 clusters (optimality determined by the Silhouette Score criterion =
-0.400), table 4
+0.400), as shown in Table 4.
 
 \begin{table}[htbp]
 \caption{Regional cluster profiles}\label{tab:cluster-profiles}
 \scriptsize
 \renewcommand{\arraystretch}{1.1}
-\setlength{\tabcolsep}{4pt}
+\setlength{\tabcolsep}{3pt}
 \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.12\textwidth}>{\centering\arraybackslash}p{0.11\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\centering\arraybackslash}p{0.12\textwidth}}
 \toprule
-Cluster & Number of regions & log\_women\_farms (mean value) & log\_credit\_total (mean value) & Share of land (average value, \%) & Growth trend (annual)\\
+Cluster & Number of regions & \shortstack[l]{log\_women\_farms\\(mean)} & \shortstack[l]{log\_credit\_total\\(mean)} & Share of land (average, \%) & Growth trend (annual)\\
 \midrule
 Cluster 0 & 15 & 7.71 & 8.02 & 2.30 & 0.091\\
 Cluster 1 & 5 & 6.35 & 6.75 & 0.18 & 0.296\\
@@ -828,9 +890,9 @@ Cluster 1 & 5 & 6.35 & 6.75 & 0.18 & 0.296\\
 \renewcommand{\arraystretch}{1}
 \end{table}
 
-Note: Average characteristics of regional clusters. Growth trend -- the
+\emph{Note:} Average characteristics of regional clusters. Growth trend -- the
 slope of the log\_women\_farms linear trend over time, characterizing
-the growth rate of women's entrepreneurship.*
+the growth rate of women's entrepreneurship.
 
 Cluster analysis divided the regions into two groups.
 
@@ -873,7 +935,7 @@ The results are consistent with the findings of fixed-effects models.
 \end{figure}
 
 Figure 6 shows the regional cluster analysis results. In the scatter
-plot, Cluster 0 (blue) is located in the high-value are
+plot, Cluster 0 (blue) is located in the high-value area
 along both the lending axis and the women's entrepreneurship axis, while
 Cluster 1 (yellow) is in the lower-value area for both characteristics.
 Regions with a low baseline but high growth potential (cluster 1)
@@ -883,11 +945,11 @@ group of regions in Kazakhstan, the priority may be the removal of
 institutional barriers (access to land, infrastructure), while for the
 second group, it may be improving efficiency and diversification.
 
-\subsection{Analysis of features' importance: Random Forest}
+\subsection{Analysis of features' importance: random forest}
 
 To understand which variables best influence the development of women's
-farming and to check for nonlinear relationships, we used the Random
-Forest method. The model was trained using group cross-validation
+farming and to check for nonlinear relationships, we used the random
+forest method. The model was trained using group cross-validation
 (GroupKFold, 5 folds per region). This ensures that data from the same
 region are not included in both the training and test sets.
 \begin{table}[htbp]
@@ -908,12 +970,12 @@ year & 0.032 & 3.20\%\\
 \end{tabular*}
 \end{table}
 
-We used a Random Forest model to identify the variables that best
+We used a random forest model to identify the variables that best
 predict the development of women's agriculture and to test for nonlinear
 relationships that are not detected by linear models. We also used group
 cross-validation to assess the model's quality.
 
-The data in table 5 shows that loans provided through the Agricultural
+The data in Table 5 show that loans provided through the Agricultural
 Financial Support Fund account for the largest share at 44.8\%. Total
 loans rank second at 14.6\%, nearly three times smaller. This
 demonstrates the importance of the funding source and that not all loans
@@ -923,8 +985,8 @@ Systematic changes over the years do not affect the dependent variable.
 Land is also important for the sustainable development of agriculture
 and women's entrepreneurship (8.84\%).
 
-The Random Forest model showed that the variables can accurately predict
-outcomes and confirms a significant correlation between loans and women
+The random forest model showed that the variables can accurately predict
+outcomes and confirmed a significant correlation between loans and women
 farmers. The TWFE model, on the other hand, estimates the change in the
 outcome when each factor changes. This suggests that loans are
 concentrated in areas where women's entrepreneurship was already
@@ -938,7 +1000,7 @@ result of our study.
 \label{fig:loan-amount-farms}
 \end{figure}
 
-The graph generated using the Random Forest model (Figure 7) shows a
+The graph generated using the random forest model (Figure 7) shows a
 positive correlation between loan amount and the predicted number of
 farms owned by women. The absence of a significant effect in the TWFE
 model indicates that the relationship observed in Figure 7 is driven by
@@ -962,10 +1024,10 @@ this barrier will lead to a multiplier effect and the use of land as a
 financial asset, consistent with the ``critical minimum of assets''
 hypothesis for entrepreneurial activity described by \citet{ref18}.
 
-However, the quality of the Random Forest model was low: RMSE = 0.95, $R^2$
+However, the quality of the random forest model was low: RMSE = 0.95, $R^2$
 = --0.56. The negative coefficient of determination indicates that the
 model predicts worse than the simple average. This suggests that the
-Random Forest model cannot adequately capture regional characteristics
+random forest model cannot adequately capture regional characteristics
 without introducing fixed effects. This confirms our main conclusion
 that lending is not the cause of the growth in the number of farms owned
 by women. Consequently, a more complex model, such as TWFE, is needed,
@@ -977,7 +1039,7 @@ years 2015--2024 reveals several key findings.
 
 \begin{enumerate}
 \item Lending does not have a negative impact on the growth in the number
-of farms owned by women. A simple Pooled OLS model shows a positive
+of farms owned by women. A simple pooled OLS model shows a positive
 relationship: a 1\% increase in lending is associated with a 0.73\%
 increase in the number of farms (p \textless{} 0.001). When applying
 time- and region-fixed effects (TWFE), the coefficient drops to 0.044,
@@ -1017,7 +1079,7 @@ which also remains low in these regions (confirming the absence of a
 uniform lending effect in TWFE).
 
 \item Loans effectively support but do not influence the development of
-agriculture in Kazakhstan. Analysis using the Random Forest method
+agriculture in Kazakhstan. Analysis using the random forest method
 showed that variables related to loans explain 87.9\% of the model's
 predictive power. Loans from the Financial Support Fund are particularly
 significant (44.8\%). The partial dependency graphs confirm that the
@@ -1042,7 +1104,7 @@ increase in women's entrepreneurship in agriculture.
 \subsection{Interpretation of key findings: lending constraints}
 
 The main finding of the study is a comparison of the estimates obtained
-using the Pooled OLS and TWFE models. While the first specification
+using the pooled OLS and TWFE models. While the first specification
 shows a statistically significant positive effect of lending, the second
 demonstrates that this effect disappears entirely after controlling for
 fixed effects of region and year. This observation is consistent with
@@ -1058,11 +1120,11 @@ regions with high levels of female entrepreneurship and access to loans
 rates. In both groups, the level of lending does not determine growth
 trends.
 
-\item Random Forest analysis confirmed that variables characterizing
+\item Random forest analysis confirmed that variables characterizing
 lending are indicators of regional differences; however, the negative
 correlation coefficient ($R^2$) from cross-validation showed that
 unobserved regional characteristics predominate. Taken together, the
-data confirms hypothesis H1: the observed correlations reflect the
+data confirm hypothesis H1: the observed correlations reflect the
 structural heterogeneity of regions (between variables) rather than a
 causal effect of lending on intraregional dynamics (within variables).
 \end{enumerate}
@@ -1070,14 +1132,14 @@ causal effect of lending on intraregional dynamics (within variables).
 \subsection{Research results. So, why don't loans work?}
 
 The main finding of the study that we wish to highlight is the
-discrepancy between the two models: Pooled OLS (with a credit
+discrepancy between the two models: pooled OLS (with a credit
 coefficient of 0.725) and the TWFE model (0.044). The first shows a
 positive effect of loans, while the second shows their complete
 disappearance after accounting for differences between regions
 (geography, climate, infrastructure) and time-fixed effects (price
 increase, changes in government development programs, macroeconomic
 trends, and others). This observation, consistent with the institutional
-approach to inclusive development \citep{ref78,ref90} suggests that the lack of an effect in the
+approach to inclusive development \citep{ref78,ref90}, suggests that the lack of an effect in the
 region is due not to the ineffectiveness of lending programs, but to
 structural factors.
 
@@ -1105,7 +1167,7 @@ regions with low indicators but high growth rates (5 regions)
 (cluster 1).
 
 \item Lending variables are the most important factors effectively
-reflecting differences between regions (Random Forest algorithm).
+reflecting differences between regions (random forest algorithm).
 However, the negative coefficient of determination ($R^2$) from the
 cross-validation indicates that unobserved regional characteristics
 contribute significantly to the variation in the dependent variable of
@@ -1120,7 +1182,7 @@ differences). Lending is concentrated in regions where farms owned by
 women are initially more developed, but it does not stimulate their
 growth in lagging regions.
 
-The Random Forest algorithm identifies differences between regions,
+The random forest algorithm identifies differences between regions,
 while the TWFE algorithm shows that credit is ineffective within
 regions. Hypothesis H1 is confirmed: there is a correlation, but no
 causal relationship.
@@ -1164,7 +1226,7 @@ exacerbated by the specific nature of land relations. Unlike in African
 countries, where microcredit supplements financial resources, in
 Kazakhstan, lending still requires land as collateral.
 
-\subsection{Reliability of results: methodological aspect}
+\subsection{Reliability of results: methodological aspects}
 
 The reliability of the results is ensured by the integration of three
 analytical modules, each of which makes a unique contribution to the
@@ -1181,7 +1243,7 @@ demonstrating that regions differ from one another (in terms of access
 to resources, level of development, institutional conditions,
 infrastructure, etc.).
 
-Random Forest module. Credit-related variables proved to be important
+Random forest module. Credit-related variables proved to be important
 for explaining differences between regions, demonstrating that key
 development factors are linked to regional characteristics which remain
 constant over time, rather than to lending support.
@@ -1213,7 +1275,7 @@ growth. The opposite may be true: successful enterprises are more likely
 to apply for loans. More sophisticated methods are needed to obtain a
 more accurate answer, which requires a separate study.
 
-\section{Recommendations for improving Kazakhstan's state agricultural policy}
+\section{Implications of the results for improving agricultural policy in Kazakhstan}
 
 The key finding -- that a broad-based increase in agricultural lending
 does not stimulate the growth of women's entrepreneurship without
@@ -1336,7 +1398,7 @@ Financial Support Fund JSC) had a significant impact in the TWFE models,
 indicating the robustness of the main conclusion.
 
 Access to land is a key institutional constraint. The average share of
-agricultural land owned by women is only 2.01\% (1.19\% on average). The
+agricultural land owned by women is only 2.01\% (median 1.19\%). The
 land share variable was not significant in any of the TWFE
 specifications, indicating its role as a long-term link that neutralizes
 the potential impact of financial support.
@@ -1349,7 +1411,7 @@ lending, moderate growth rates (0.091 per year);
 Group 1 (5 regions) -- low control indicators, but three times higher
 growth rates (0.296 per year), not linked to actual lending volumes.
 
-Random Forest machine learning methods confirm that credit variables
+Random forest machine learning methods confirm that credit variables
 dominate the structure of feature importance (87.9\% overall). However,
 a negative $R^2$ (-0.56) in cross-validation between regions indicates
 limited generalizability of the model to new regions, which confirms the
@@ -1366,7 +1428,7 @@ context of Central Asia's transition economies, filling a gap in the
 literature focused on African and South Asian countries.
 
 Methodological novelty: The combination of three analytical modules
-(TWFE, k-means, and Random Forest) allowed us to distinguish
+(TWFE, k-means, and random forest) allowed us to distinguish
 correlations between regions from intra-regional differences and assess
 the impact of lending on the development of women's entrepreneurship in
 Kazakhstan's agriculture.

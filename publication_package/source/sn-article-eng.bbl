@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{97}
+\begin{thebibliography}{102}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -604,6 +604,18 @@ Global Food Security, 44, 100836
 \endbibitem
 
 %%% 46
+\bibitem[\protect\citeauthoryear{Khan and Kim}{2025}]{ref49}
+\begin{botherref}
+\oauthor{\bsnm{Khan}, \binits{C.M.}},
+\oauthor{\bsnm{Kim}, \binits{S.G.}}:
+Evaluating the impact of agricultural credit access on smallholder maize
+  farmers' productivity in the Northwest Region of Cameroon.
+Sustainability, 17(17), 7574
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 47
 \bibitem[\protect\citeauthoryear{Khalatur et~al.}{2023}]{ref48}
 \begin{botherref}
 \oauthor{\bsnm{Khalatur}, \binits{S.}},
@@ -617,7 +629,7 @@ Anti-crisis management as a basis for the formation of a financial mechanism
 \end{botherref}
 \endbibitem
 
-%%% 47
+%%% 48
 \bibitem[\protect\citeauthoryear{Kolinets and Tokar}{2019}]{ref50}
 \begin{botherref}
 \oauthor{\bsnm{Kolinets}, \binits{L.}},
@@ -629,7 +641,7 @@ Management Theory and Studies for Rural Business and Infrastructure
 \end{botherref}
 \endbibitem
 
-%%% 48
+%%% 49
 \bibitem[\protect\citeauthoryear{Lidder et~al.}{2025}]{ref55}
 \begin{botherref}
 \oauthor{\bsnm{Lidder}, \binits{P.}},
@@ -642,7 +654,7 @@ Global Food Security, 44, 100827
 \end{botherref}
 \endbibitem
 
-%%% 49
+%%% 50
 \bibitem[\protect\citeauthoryear{Lopez et~al.}{2022}]{ref57}
 \begin{botherref}
 \oauthor{\bsnm{Lopez}, \binits{D.E.}},
@@ -655,7 +667,7 @@ PLoS One, 17(3), e0263771
 \end{botherref}
 \endbibitem
 
-%%% 50
+%%% 51
 \bibitem[\protect\citeauthoryear{Lambrecht et~al.}{2023}]{ref52}
 \begin{botherref}
 \oauthor{\bsnm{Lambrecht}, \binits{I.B.}},
@@ -670,7 +682,7 @@ Agricultural Economics, 54(6), 728--741
 \end{botherref}
 \endbibitem
 
-%%% 51
+%%% 52
 \bibitem[\protect\citeauthoryear{Lin and Peng}{2025}]{ref56}
 \begin{botherref}
 \oauthor{\bsnm{Lin}, \binits{H.}},
@@ -682,7 +694,7 @@ Finance Research Letters, 73, 106654
 \end{botherref}
 \endbibitem
 
-%%% 52
+%%% 53
 \bibitem[\protect\citeauthoryear{Lee and Wooldridge}{2023}]{ref53}
 \begin{botherref}
 \oauthor{\bsnm{Lee}, \binits{S.J.}},
@@ -694,7 +706,7 @@ Available at SSRN 4516518
 \end{botherref}
 \endbibitem
 
-%%% 53
+%%% 54
 \bibitem[\protect\citeauthoryear{Li and Zhang}{2025}]{ref54}
 \begin{botherref}
 \oauthor{\bsnm{Li}, \binits{B.}},
@@ -705,7 +717,7 @@ Finance Research Letters, 74, 106704
 \end{botherref}
 \endbibitem
 
-%%% 54
+%%% 55
 \bibitem[\protect\citeauthoryear{Mare}{2017}]{ref59}
 \begin{botherref}
 \oauthor{\bsnm{Mare}, \binits{Y.}}:
@@ -717,7 +729,7 @@ Journal of Agricultural Extension and Rural Development, 9(10), 230-238
 \end{botherref}
 \endbibitem
 
-%%% 55
+%%% 56
 \bibitem[\protect\citeauthoryear{Mottet et~al.}{2020}]{ref67}
 \begin{botherref}
 \oauthor{\bsnm{Mottet}, \binits{A.}},
@@ -737,7 +749,7 @@ Frontiers in Sustainable Food Systems, 4, 579154
 \end{botherref}
 \endbibitem
 
-%%% 56
+%%% 57
 \bibitem[\protect\citeauthoryear{Meinzen-Dick et~al.}{2019}]{ref62}
 \begin{botherref}
 \oauthor{\bsnm{Meinzen-Dick}, \binits{R.}},
@@ -751,7 +763,7 @@ Agricultural Systems, 172, 72-82
 \end{botherref}
 \endbibitem
 
-%%% 57
+%%% 58
 \bibitem[\protect\citeauthoryear{Mager and Faße}{2023}]{ref58}
 \begin{botherref}
 \oauthor{\bsnm{Mager}, \binits{G.}},
@@ -763,7 +775,7 @@ Journal of International Development, 36(1), 644-676
 \end{botherref}
 \endbibitem
 
-%%% 58
+%%% 59
 \bibitem[\protect\citeauthoryear{Mkhitaryan}{2021}]{ref63}
 \begin{botherref}
 \oauthor{\bsnm{Mkhitaryan}, \binits{A.}}:
@@ -773,7 +785,7 @@ Ural Agricultural Bulletin, (3 (206)), 81-91
 \end{botherref}
 \endbibitem
 
-%%% 59
+%%% 60
 \bibitem[\protect\citeauthoryear{Mohammed et~al.}{2025}]{ref66}
 \begin{botherref}
 \oauthor{\bsnm{Mohammed}, \binits{F.Y.}},
@@ -785,7 +797,7 @@ Food Security, 17, 1301--1315
 \end{botherref}
 \endbibitem
 
-%%% 60
+%%% 61
 \bibitem[\protect\citeauthoryear{Mozumdar et~al.}{2025}]{ref68}
 \begin{botherref}
 \oauthor{\bsnm{Mozumdar}, \binits{L.}},
@@ -798,7 +810,20 @@ World Development Perspectives, 37, 100673
 \end{botherref}
 \endbibitem
 
-%%% 61
+%%% 62
+\bibitem[\protect\citeauthoryear{Mbangiswano et~al.}{2025}]{ref61}
+\begin{botherref}
+\oauthor{\bsnm{Mbangiswano}, \binits{S.Z.}},
+\oauthor{\bsnm{Ndlovu}, \binits{E.}},
+\oauthor{\bsnm{Vuthela}, \binits{Z.S.}}:
+Empowering rural women agripreneurs through financial inclusion: Lessons from
+  South Africa for the G20 development agenda.
+Administrative Sciences, 15(9), 340
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 63
 \bibitem[\protect\citeauthoryear{Mazakaza and Odoyo}{2022}]{ref60}
 \begin{botherref}
 \oauthor{\bsnm{Mazakaza}, \binits{C.}},
@@ -809,7 +834,7 @@ International Journal of Finance and Accounting, 7(2), 55--64
 \end{botherref}
 \endbibitem
 
-%%% 62
+%%% 64
 \bibitem[\protect\citeauthoryear{Mohapatra et~al.}{2020}]{ref65}
 \begin{botherref}
 \oauthor{\bsnm{Mohapatra}, \binits{N.}},
@@ -822,7 +847,7 @@ In Advances in Data Science and Management: Proceedings of ICDSM 2019 (pp.
 \end{botherref}
 \endbibitem
 
-%%% 63
+%%% 65
 \bibitem[\protect\citeauthoryear{Mobarok et~al.}{2021}]{ref64}
 \begin{botherref}
 \oauthor{\bsnm{Mobarok}, \binits{M.H.}},
@@ -835,7 +860,7 @@ PLoS ONE, 16(8), e0255589
 \end{botherref}
 \endbibitem
 
-%%% 64
+%%% 66
 \bibitem[\protect\citeauthoryear{Nhelnyama}{2026}]{ref72}
 \begin{botherref}
 \oauthor{\bsnm{Nhelnyama}, \binits{S.N.}}:
@@ -847,7 +872,7 @@ In Use and Abuse of AI in Warfare, Human Development, and Social Justice (pp.
 \end{botherref}
 \endbibitem
 
-%%% 65
+%%% 67
 \bibitem[\protect\citeauthoryear{Nyberg et~al.}{2025}]{ref73}
 \begin{botherref}
 \oauthor{\bsnm{Nyberg}, \binits{Y.}},
@@ -862,7 +887,7 @@ International Journal of Agricultural Sustainability, 23(1), 2505387
 \end{botherref}
 \endbibitem
 
-%%% 66
+%%% 68
 \bibitem[\protect\citeauthoryear{Nchanji et~al.}{2025}]{ref71}
 \begin{botherref}
 \oauthor{\bsnm{Nchanji}, \binits{E.B.}},
@@ -875,7 +900,7 @@ Discover Sustainability, 6, 337
 \end{botherref}
 \endbibitem
 
-%%% 67
+%%% 69
 \bibitem[\protect\citeauthoryear{Naheed and Rukhsana}{2024}]{ref69}
 \begin{botherref}
 \oauthor{\bsnm{Naheed}, \binits{S.}},
@@ -887,7 +912,20 @@ Agriculture \& Food Security, 13, 41
 \end{botherref}
 \endbibitem
 
-%%% 68
+%%% 70
+\bibitem[\protect\citeauthoryear{Namayengo et~al.}{2023}]{ref70}
+\begin{botherref}
+\oauthor{\bsnm{Namayengo}, \binits{F.M.M.}},
+\oauthor{\bsnm{Ophem}, \binits{J.A.C.}},
+\oauthor{\bsnm{Antonides}, \binits{G.}}:
+A comparative study on the role of microcredit in improving agricultural
+  production among resource-poor rural women.
+Frontiers in Sustainable Food Systems, 7
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 71
 \bibitem[\protect\citeauthoryear{Ogunsola et~al.}{2024}]{ref75}
 \begin{botherref}
 \oauthor{\bsnm{Ogunsola}, \binits{O.E.}},
@@ -900,7 +938,7 @@ Global Management and Policy Journal, 1(3), 26-46
 \end{botherref}
 \endbibitem
 
-%%% 69
+%%% 72
 \bibitem[\protect\citeauthoryear{OECD/GWEP}{2025}]{ref74}
 \begin{botherref}
 \oauthor{\bsnm{OECD/GWEP}}:
@@ -911,7 +949,7 @@ OECD Studies on SMEs and Entrepreneurship, Paris
 \end{botherref}
 \endbibitem
 
-%%% 70
+%%% 73
 \bibitem[\protect\citeauthoryear{Omotayo and Omotoso}{2025}]{ref76}
 \begin{botherref}
 \oauthor{\bsnm{Omotayo}, \binits{A.O.}},
@@ -923,7 +961,7 @@ Agricultural Water Management, 308, 109276
 \end{botherref}
 \endbibitem
 
-%%% 71
+%%% 74
 \bibitem[\protect\citeauthoryear{Phillips et~al.}{2025}]{ref77}
 \begin{botherref}
 \oauthor{\bsnm{Phillips}, \binits{L.}},
@@ -938,7 +976,7 @@ Global Food Security, 47, 100892
 \end{botherref}
 \endbibitem
 
-%%% 72
+%%% 75
 \bibitem[\protect\citeauthoryear{Quisumbing et~al.}{2023}]{ref78}
 \begin{botherref}
 \oauthor{\bsnm{Quisumbing}, \binits{A.}},
@@ -957,7 +995,7 @@ Global Food Security, 38, 100707
 \end{botherref}
 \endbibitem
 
-%%% 73
+%%% 76
 \bibitem[\protect\citeauthoryear{Rubin et~al.}{2019}]{ref82}
 \begin{botherref}
 \oauthor{\bsnm{Rubin}, \binits{D.}},
@@ -971,7 +1009,7 @@ In Strengthening rural institutions and value chains for inclusive agricultural
 \end{botherref}
 \endbibitem
 
-%%% 74
+%%% 77
 \bibitem[\protect\citeauthoryear{Roberts}{2026}]{ref80}
 \begin{botherref}
 \oauthor{\bsnm{Roberts}, \binits{T.G.}}:
@@ -982,7 +1020,7 @@ Advancements in Agricultural Development, 7(2), 1-7
 \end{botherref}
 \endbibitem
 
-%%% 75
+%%% 78
 \bibitem[\protect\citeauthoryear{Ragsdale et~al.}{2018}]{ref79}
 \begin{botherref}
 \oauthor{\bsnm{Ragsdale}, \binits{K.}},
@@ -997,7 +1035,7 @@ Journal of Rural Studies, 64, 123-134
 \end{botherref}
 \endbibitem
 
-%%% 76
+%%% 79
 \bibitem[\protect\citeauthoryear{Ros-Tonen et~al.}{2019}]{ref81}
 \begin{botherref}
 \oauthor{\bsnm{Ros-Tonen}, \binits{M.A.}},
@@ -1012,7 +1050,7 @@ Current Opinion in Environmental Sustainability, 41, 10-17
 \end{botherref}
 \endbibitem
 
-%%% 77
+%%% 80
 \bibitem[\protect\citeauthoryear{S}{2022}]{ref11}
 \begin{botherref}
 \oauthor{\bsnm{S}, \binits{A.}}:
@@ -1024,7 +1062,7 @@ The gendered motives and experiences of Canadian women farmers in short food
 \end{botherref}
 \endbibitem
 
-%%% 78
+%%% 81
 \bibitem[\protect\citeauthoryear{Sassi}{2026}]{ref84}
 \begin{botherref}
 \oauthor{\bsnm{Sassi}, \binits{M.}}:
@@ -1035,7 +1073,7 @@ Agric Econ, 14, 35
 \end{botherref}
 \endbibitem
 
-%%% 79
+%%% 82
 \bibitem[\protect\citeauthoryear{Shahriar et~al.}{2025}]{ref88}
 \begin{botherref}
 \oauthor{\bsnm{Shahriar}, \binits{A.Z.M.}},
@@ -1048,7 +1086,7 @@ Journal of Business Venturing, 40(5), 106525
 \end{botherref}
 \endbibitem
 
-%%% 80
+%%% 83
 \bibitem[\protect\citeauthoryear{Song et~al.}{2026}]{ref87}
 \begin{botherref}
 \oauthor{\bsnm{Song}, \binits{Q.}},
@@ -1061,7 +1099,7 @@ Finance Research Letters, 109478
 \end{botherref}
 \endbibitem
 
-%%% 81
+%%% 84
 \bibitem[\protect\citeauthoryear{Stepanenko et~al.}{2023}]{ref92}
 \begin{botherref}
 \oauthor{\bsnm{Stepanenko}, \binits{S.}},
@@ -1075,7 +1113,7 @@ Collection of Papers New Economy, 1(1), 75--88
 \end{botherref}
 \endbibitem
 
-%%% 82
+%%% 85
 \bibitem[\protect\citeauthoryear{Satpayeva et~al.}{2020}]{ref85}
 \begin{botherref}
 \oauthor{\bsnm{Satpayeva}, \binits{Z.T.}},
@@ -1089,7 +1127,7 @@ The Journal of Asian Finance, Economics and Business, 7(3), 253--263
 \end{botherref}
 \endbibitem
 
-%%% 83
+%%% 86
 \bibitem[\protect\citeauthoryear{Salman et~al.}{2024}]{ref83}
 \begin{botherref}
 \oauthor{\bsnm{Salman}, \binits{H.A.}},
@@ -1101,7 +1139,7 @@ Babylonian Journal of Machine Learning, 2024, 69--79
 \end{botherref}
 \endbibitem
 
-%%% 84
+%%% 87
 \bibitem[\protect\citeauthoryear{Shali~Lasrado et~al.}{2025}]{ref89}
 \begin{botherref}
 \oauthor{\bsnm{Shali~Lasrado}, \binits{B.}},
@@ -1118,7 +1156,7 @@ Journal of Small Business and Enterprise Development, 32(7), 1530-1557
 \end{botherref}
 \endbibitem
 
-%%% 85
+%%% 88
 \bibitem[\protect\citeauthoryear{Stawicka and Parlinska}{2021}]{ref91}
 \begin{botherref}
 \oauthor{\bsnm{Stawicka}, \binits{E.}},
@@ -1129,7 +1167,7 @@ Female entrepreneurship in rural areas in the context of the labor market.
 \end{botherref}
 \endbibitem
 
-%%% 86
+%%% 89
 \bibitem[\protect\citeauthoryear{Schoneveld and Weng}{2023}]{ref90}
 \begin{botherref}
 \oauthor{\bsnm{Schoneveld}, \binits{G.C.}},
@@ -1140,7 +1178,7 @@ Land Use Policy, 131, 106676
 \end{botherref}
 \endbibitem
 
-%%% 87
+%%% 90
 \bibitem[\protect\citeauthoryear{Timu et~al.}{2024}]{ref93}
 \begin{botherref}
 \oauthor{\bsnm{Timu}, \binits{A.G.}},
@@ -1154,7 +1192,7 @@ Current Research in Environmental Sustainability, 8, 100268
 \end{botherref}
 \endbibitem
 
-%%% 88
+%%% 91
 \bibitem[\protect\citeauthoryear{Tundui and Tundui}{2024}]{ref94}
 \begin{botherref}
 \oauthor{\bsnm{Tundui}, \binits{H.P.}},
@@ -1166,7 +1204,7 @@ International Journal of Sociology and Social Policy, 44(9/10), 793-808
 \end{botherref}
 \endbibitem
 
-%%% 89
+%%% 92
 \bibitem[\protect\citeauthoryear{Urago and Bozoğlu}{2022}]{ref96}
 \begin{botherref}
 \oauthor{\bsnm{Urago}, \binits{G.G.}},
@@ -1177,7 +1215,22 @@ Anadolu Journal of Agricultural Sciences, 37(2), 301-316
 \end{botherref}
 \endbibitem
 
-%%% 90
+%%% 93
+\bibitem[\protect\citeauthoryear{Ullah et~al.}{2024}]{ref95}
+\begin{botherref}
+\oauthor{\bsnm{Ullah}, \binits{A.}},
+\oauthor{\bsnm{Verner}, \binits{V.}},
+\oauthor{\bsnm{Madaki}, \binits{M.Y.}},
+\oauthor{\bsnm{Adams}, \binits{F.}},
+\oauthor{\bsnm{Bavorova}, \binits{M.}}:
+Factors influencing informal credit access and utilization among smallholder
+  farmers: Insights from mountainous regions of Pakistan.
+Agriculture, 14(10), 1764
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 94
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2025}]{ref97}
 \begin{botherref}
 \oauthor{\bsnm{Wang}, \binits{S.}},
@@ -1190,7 +1243,7 @@ Frontiers in Sustainable Food Systems, 9, 1613678
 \end{botherref}
 \endbibitem
 
-%%% 91
+%%% 95
 \bibitem[\protect\citeauthoryear{Wooldridge}{2023}]{ref100}
 \begin{botherref}
 \oauthor{\bsnm{Wooldridge}, \binits{J.M.}}:
@@ -1200,7 +1253,7 @@ The Econometrics Journal, 26(3), C31-C66
 \end{botherref}
 \endbibitem
 
-%%% 92
+%%% 96
 \bibitem[\protect\citeauthoryear{Wooldridge}{2025}]{ref101}
 \begin{botherref}
 \oauthor{\bsnm{Wooldridge}, \binits{J.M.}}:
@@ -1211,7 +1264,7 @@ Empirical Economics, 69(5), 2545-2587
 \end{botherref}
 \endbibitem
 
-%%% 93
+%%% 97
 \bibitem[\protect\citeauthoryear{Wasif et~al.}{2025}]{ref99}
 \begin{botherref}
 \oauthor{\bsnm{Wasif}, \binits{M.}},
@@ -1224,7 +1277,7 @@ Examining Barriers and Building Resiliency for Rural Women Entrepreneurs, 1--28
 \end{botherref}
 \endbibitem
 
-%%% 94
+%%% 98
 \bibitem[\protect\citeauthoryear{Ye}{2025}]{ref105}
 \begin{botherref}
 \oauthor{\bsnm{Ye}, \binits{L.}}:
@@ -1234,7 +1287,7 @@ International Review of Economics \& Finance, 99, 104028
 \end{botherref}
 \endbibitem
 
-%%% 95
+%%% 99
 \bibitem[\protect\citeauthoryear{Yang and Li}{2025}]{ref104}
 \begin{botherref}
 \oauthor{\bsnm{Yang}, \binits{L.}},
@@ -1245,7 +1298,19 @@ Finance Research Letters, 86(Part B), 108478
 \end{botherref}
 \endbibitem
 
-%%% 96
+%%% 100
+\bibitem[\protect\citeauthoryear{Yang and Li}{2026}]{ref103}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{Z.}},
+\oauthor{\bsnm{Li}, \binits{X.}}:
+From credit access to farmers' income resilience: evaluating the impact of
+  financial reform on urban--rural inequality and rural income stability.
+Frontiers in Sustainable Food Systems, 10, 1759680
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 101
 \bibitem[\protect\citeauthoryear{Yan et~al.}{2022}]{ref102}
 \begin{botherref}
 \oauthor{\bsnm{Yan}, \binits{Z.}},
@@ -1261,7 +1326,7 @@ Agriculture, 12(1), 60
 \end{botherref}
 \endbibitem
 
-%%% 97
+%%% 102
 \bibitem[\protect\citeauthoryear{Zhou and Zhang}{2026}]{ref106}
 \begin{botherref}
 \oauthor{\bsnm{Zhou}, \binits{X.}},
