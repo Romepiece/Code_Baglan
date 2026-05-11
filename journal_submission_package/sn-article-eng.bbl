@@ -1,0 +1,1341 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{102}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Ayamga et~al.}{2023}]{ref09}
+\begin{botherref}
+\oauthor{\bsnm{Ayamga}, \binits{J.A.}},
+\oauthor{\bsnm{Ayawine}, \binits{A.}},
+\oauthor{\bsnm{Ayentimi}, \binits{D.T.}}:
+Women empowerment and food-nutrition security in Sierra Leone.
+Agriculture \& Food Security, 12, 44
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Adefila et~al.}{2024}]{ref02}
+\begin{botherref}
+\oauthor{\bsnm{Adefila}, \binits{A.O.}},
+\oauthor{\bsnm{Ajayi}, \binits{O.O.}},
+\oauthor{\bsnm{Toromade}, \binits{A.S.}},
+\oauthor{\bsnm{Sam-Bulya}, \binits{N.J.}}:
+A sociological review of gender equity in agricultural development: Global
+  trends and lessons for US policy.
+International Journal of Applied Research in Social Sciences, 6(11), 2658-2677
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Agarwal}{2018}]{ref03}
+\begin{botherref}
+\oauthor{\bsnm{Agarwal}, \binits{B.}}:
+Gender equality, food security and the sustainable development goals.
+Current Opinion in Environmental Sustainability, 34, 26-32
+(2018)
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Asadullah and Kambhampati}{2021}]{ref08}
+\begin{botherref}
+\oauthor{\bsnm{Asadullah}, \binits{M.N.}},
+\oauthor{\bsnm{Kambhampati}, \binits{U.}}:
+Feminization of farming, food security, and female empowerment.
+Global Food Security, 29, 100532
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Akybayeva et~al.}{2024}]{ref07}
+\begin{botherref}
+\oauthor{\bsnm{Akybayeva}, \binits{G.}},
+\oauthor{\bsnm{Mussabekova}, \binits{A.}},
+\oauthor{\bsnm{Mambetova}, \binits{S.}},
+\oauthor{\bsnm{Ayaganova}, \binits{M.}},
+\oauthor{\bsnm{Koitanova}, \binits{A.}}:
+The impact of female entrepreneurship on economic growth in developing and
+  developed economies.
+Economics, 12(2), 145-162
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Awuor et~al.}{2021}]{ref10}
+\begin{botherref}
+\oauthor{\bsnm{Awuor}, \binits{J.O.}},
+\oauthor{\bsnm{Mulwa}, \binits{R.M.}},
+\oauthor{\bsnm{Openda}, \binits{N.O.}}:
+Gender disparity in cassava farmers' access to agricultural productive
+  resources in Rongo Sub County, Migori County, Kenya.
+African Journal of Agricultural Research, 17(9), 1161-1171
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Amoah}{2024}]{ref06}
+\begin{botherref}
+\oauthor{\bsnm{Amoah}, \binits{J.O.}}:
+Gendered challenges and coping strategies among smallholder farmers: An
+  intersectionality analysis.
+Social Sciences \& Humanities Open, 10, 101028
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Amoak and Najjar}{2026}]{ref05}
+\begin{botherref}
+\oauthor{\bsnm{Amoak}, \binits{D.}},
+\oauthor{\bsnm{Najjar}, \binits{D.}}:
+Governing agrifood systems for climate resilience and gender inclusivity: A
+  strategic review of the evidence.
+Environmental Development, 57, 101308
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Agarwal et~al.}{2025}]{ref04}
+\begin{botherref}
+\oauthor{\bsnm{Agarwal}, \binits{T.}},
+\oauthor{\bsnm{Ravindranath}, \binits{D.}},
+\oauthor{\bsnm{Adamseged}, \binits{M.E.}}:
+SoLAR phase II gender and social inclusion (GESI) strategy
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Baloi et~al.}{2023}]{ref12}
+\begin{botherref}
+\oauthor{\bsnm{Baloi}, \binits{V.A.}},
+\oauthor{\bsnm{Belete}, \binits{A.}},
+\oauthor{\bsnm{Hlongwane}, \binits{J.J.}}:
+Women in agriculture: irrigation as an empowerment tool.
+American Journal of Youth and Women Empowerment, 2(2), 1--8
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Bekturganova and Kurmasheva}{2025}]{ref15}
+\begin{botherref}
+\oauthor{\bsnm{Bekturganova}, \binits{M.S.}},
+\oauthor{\bsnm{Kurmasheva}, \binits{M.T.}}:
+Structural barriers and opportunities for financial inclusion of women in
+  Kazakhstan.
+Eurasian Journal of Economic and Business Studies, 69(2), 19-33
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Baffoe‐Bonnie and Kostandini}{2026}]{ref13}
+\begin{botherref}
+\oauthor{\bsnm{Baffoe‐Bonnie}, \binits{A.}},
+\oauthor{\bsnm{Kostandini}, \binits{G.}}:
+The Impact of Credit and Training on Farmers' Efficiency: A Semi‐Parametric
+  Meta‐Frontier Analysis.
+Australian Journal of Agricultural and Resource Economics
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Behera et~al.}{2026}]{ref14}
+\begin{botherref}
+\oauthor{\bsnm{Behera}, \binits{S.K.}},
+\oauthor{\bsnm{Panda}, \binits{R.K.}},
+\oauthor{\bsnm{Senapati}, \binits{S.}}:
+The role of financial and social capital in rural women's micro-enterprises:
+  Assessing entrepreneurial orientation as a performance catalyst.
+Journal of Enterprising Communities: People and Places in the Global Economy,
+  20(1), 59--93
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Bohn et~al.}{2024}]{ref16}
+\begin{botherref}
+\oauthor{\bsnm{Bohn}, \binits{S.}},
+\oauthor{\bsnm{Wollni}, \binits{M.}},
+\oauthor{\bsnm{Paz}, \binits{B.}}:
+Cultivating change: Exploring the link between certification, dietary quality,
+  and women's empowerment among coffee farmers in Rwanda.
+SustainableFood Discussion Paper
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Chance and Abdoul}{2025}]{ref19}
+\begin{botherref}
+\oauthor{\bsnm{Chance}, \binits{E.A.}},
+\oauthor{\bsnm{Abdoul}, \binits{I.S.}}:
+The roles and contributions of women to the health of their families and
+  household economics in rural areas in the district of Mbe, Cameroon.
+Social Sciences \& Humanities Open, 11, 101456
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Carter}{2022}]{ref18}
+\begin{botherref}
+\oauthor{\bsnm{Carter}, \binits{M.R.}}:
+Can digitally-enabled financial instruments secure an inclusive agricultural
+  transformation?
+Agricultural Economics, 53(6), 953-967
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Chebet}{2023}]{ref20}
+\begin{botherref}
+\oauthor{\bsnm{Chebet}, \binits{N.}}:
+The role of women in agricultural sector growth.
+International Journal of Agriculture, 8(1), 41-50
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Chen et~al.}{2026}]{ref21}
+\begin{botherref}
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Liang}, \binits{Y.}},
+\oauthor{\bsnm{Gong}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{W.}}:
+How does agricultural modernization promote common prosperity? Evidence from
+  non-agricultural transformation and digital infrastructure.
+Economic Analysis and Policy
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Chiu et~al.}{2023}]{ref22}
+\begin{botherref}
+\oauthor{\bsnm{Chiu}, \binits{A.}},
+\oauthor{\bsnm{Lan}, \binits{X.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Xu}, \binits{Y.}}:
+Causal panel analysis under parallel trends: Lessons from a large reanalysis
+  study.
+American Political Science Review, 1-22
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Cavatassi et~al.}{2025}]{ref17}
+\begin{botherref}
+\oauthor{\bsnm{Cavatassi}, \binits{R.}},
+\oauthor{\bsnm{Phillips}, \binits{L.M.}},
+\oauthor{\bsnm{Maggio}, \binits{G.}},
+\oauthor{\bsnm{Anteneh}, \binits{Z.}},
+\oauthor{\bsnm{Mabiso}, \binits{A.}}:
+Enhancing households' livelihoods in agrifood systems: The role of women' s
+  empowerment.
+Global Food Security, 45, 100856
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Costa et~al.}{2026}]{ref23}
+\begin{botherref}
+\oauthor{\bsnm{Costa}, \binits{V.}},
+\oauthor{\bsnm{Piedrahita}, \binits{N.}},
+\oauthor{\bsnm{Mane}, \binits{E.}},
+\oauthor{\bsnm{Davis}, \binits{B.}},
+\oauthor{\bsnm{Slavchevska}, \binits{V.}}:
+Global estimates of women's and men's employment in agrifood systems from 2000
+  to 2021.
+Global Food Security, 48, 100904
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Dabkienė}{2025}]{ref24}
+\begin{botherref}
+\oauthor{\bsnm{Dabkienė}, \binits{V.}}:
+Gender, women's barriers and innovation in agriculture: a systemic literature
+  review.
+European Countryside, 17, 1-26
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Diaz-Chavez}{2025}]{ref26}
+\begin{botherref}
+\oauthor{\bsnm{Diaz-Chavez}, \binits{R.}}:
+Socio-Economic Assessment of the Agriculture Sector and the Bioeconomy in East
+  Africa---A Gender-Focused Approach.
+Agriculture, 15(18), 1933
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Demedeme and Opoku}{2022}]{ref25}
+\begin{botherref}
+\oauthor{\bsnm{Demedeme}, \binits{G.}},
+\oauthor{\bsnm{Opoku}, \binits{C.B.}}:
+Economic empowerment of rural women: Assessing the effectiveness of the rural
+  enterprise program (REP) in Ghana, West Africa.
+Journal of Agricultural Extension and Rural Development, 14(1), 13-23
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Doss}{2025}]{ref27}
+\begin{botherref}
+\oauthor{\bsnm{Doss}, \binits{C.R.}}:
+Gender and agricultural productivity.
+Annual Review of Resource Economics, 17, 21-39
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Emir et~al.}{2024}]{ref28}
+\begin{botherref}
+\oauthor{\bsnm{Emir}, \binits{F.}},
+\oauthor{\bsnm{Udemba}, \binits{E.N.}},
+\oauthor{\bsnm{Khan}, \binits{N.U.}},
+\oauthor{\bsnm{Hussain}, \binits{S.}}:
+Interactions among technological innovation, foreign direct investment, and
+  agriculture: A symmetric and asymmetric study of inclusive sustainable
+  development.
+Energy \& Environment, 35(2), 1031-1049
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Fert{\H{o}} and Bojnec}{2024}]{ref31}
+\begin{botherref}
+\oauthor{\bsnm{Fert{\H{o}}}, \binits{I.}},
+\oauthor{\bsnm{Bojnec}, \binits{{\v{S}}.}}:
+Empowering women in sustainable agriculture.
+Scientific Reports, 14(1), 7110
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Fenet~Belayand and
+  Alemayehu~Oljira}{2019}]{ref30}
+\begin{botherref}
+\oauthor{\bsnm{Fenet~Belayand}, \binits{F.B.}},
+\oauthor{\bsnm{Alemayehu~Oljira}, \binits{A.O.}}:
+Review on gendered perspective of household' s participation in agricultural
+  activities in Ethiopia
+(2019)
+\end{botherref}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Gartaula et~al.}{2025}]{ref29}
+\begin{botherref}
+\oauthor{\bsnm{Gartaula}, \binits{H.N.}},
+\oauthor{\bsnm{Atreya}, \binits{K.}},
+\oauthor{\bsnm{Sapkota}, \binits{A.}},
+\oauthor{\bsnm{Mukhopadhyay}, \binits{P.}},
+\oauthor{\bsnm{Chadha}, \binits{D.}},
+\oauthor{\bsnm{Puskur}, \binits{R.}}:
+A systematic review of agricultural projects' contributions to women's
+  empowerment.
+npj Sustainable Agriculture, 3, 22
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{German et~al.}{2020}]{ref34}
+\begin{botherref}
+\oauthor{\bsnm{German}, \binits{L.A.}},
+\oauthor{\bsnm{Bonanno}, \binits{A.M.}},
+\oauthor{\bsnm{Foster}, \binits{L.C.}},
+\oauthor{\bsnm{Cotula}, \binits{L.}}:
+``Inclusive business'' in agriculture: Evidence from the evolution of
+  agricultural value chains.
+World Development, 134, 105018
+(2020)
+\end{botherref}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Ge et~al.}{2023}]{ref32}
+\begin{botherref}
+\oauthor{\bsnm{Ge}, \binits{Y.}},
+\oauthor{\bsnm{Fan}, \binits{L.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Guo}, \binits{J.}},
+\oauthor{\bsnm{Niu}, \binits{H.}}:
+Gender differences in smallholder farmers' adoption of crop diversification:
+  Evidence from Shaanxi Plain, China.
+Climate Risk Management, 39, 100482
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Gil}{2023}]{ref36}
+\begin{botherref}
+\oauthor{\bsnm{Gil}, \binits{J.}}:
+Women's empowerment and crop diversification.
+Nature Food, 4, 639
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Ghosh and Neogi}{2018}]{ref35}
+\begin{botherref}
+\oauthor{\bsnm{Ghosh}, \binits{S.}},
+\oauthor{\bsnm{Neogi}, \binits{C.}}:
+Access to finance, entrepreneurship, and empowerment: A case study.
+In Women' s entrepreneurship and microfinance (pp. 173-189). Springer Singapore
+(2018)
+\end{botherref}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Hartarska et~al.}{2024}]{ref39}
+\begin{botherref}
+\oauthor{\bsnm{Hartarska}, \binits{V.}},
+\oauthor{\bsnm{Adjei}, \binits{E.}},
+\oauthor{\bsnm{Nadolnyak}, \binits{D.}}:
+The transition incentive program and women' ' farmers in the USA.
+Food Policy, 129, 102739
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Han and Liang}{2025}]{ref37}
+\begin{botherref}
+\oauthor{\bsnm{Han}, \binits{Z.}},
+\oauthor{\bsnm{Liang}, \binits{Q.}}:
+Digital economy and inclusive development of new agricultural operating
+  entities.
+Australian Journal of Agricultural and Resource Economics, 69(3), 687-700
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Huyer et~al.}{2024}]{ref41}
+\begin{botherref}
+\oauthor{\bsnm{Huyer}, \binits{S.}},
+\oauthor{\bsnm{Loboguerrero}, \binits{A.M.}},
+\oauthor{\bsnm{Chanana}, \binits{N.}},
+\oauthor{\bsnm{Spellman}, \binits{O.}}:
+From gender gaps to gender-transformative climate-smart agriculture.
+Current Opinion in Environmental Sustainability, 67, 101415
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{Henrotte and Van~den Broeck}{2026}]{ref40}
+\begin{botherref}
+\oauthor{\bsnm{Henrotte}, \binits{S.}},
+\oauthor{\bsnm{Broeck}, \binits{G.}}:
+How does gender shape the adoption of sustainable agricultural practices?
+  Evidence from Belgium.
+Journal of Rural Studies, 121, 103919
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Han and Zhang}{2026}]{ref38}
+\begin{botherref}
+\oauthor{\bsnm{Han}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{F.}}:
+Digital Inclusive Finance and Agricultural Development: "Ensuring Stable
+  Production and Supply" or "Improving Quality and Efficiency"?---An Analysis
+  from the Perspective of Factor Misallocation.
+Frontiers in Sustainable Food Systems, 10, 1696056
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 39
+\bibitem[\protect\citeauthoryear{Islam et~al.}{2024}]{ref44}
+\begin{botherref}
+\oauthor{\bsnm{Islam}, \binits{M.M.}},
+\oauthor{\bsnm{Jannat}, \binits{A.}},
+\oauthor{\bsnm{Al~Rafi}, \binits{D.A.}}:
+Women's participation in South Asian agriculture: a comprehensive systematic
+  review.
+Discover Sustainability, 5, 490
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 40
+\bibitem[\protect\citeauthoryear{Ingutia and Sumelius}{2024}]{ref42}
+\begin{botherref}
+\oauthor{\bsnm{Ingutia}, \binits{R.}},
+\oauthor{\bsnm{Sumelius}, \binits{J.}}:
+Does cooperative membership facilitate access to credit for women farmers in
+  rural Kenya? Journal of Agriculture and Food Research, 18, 101425
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 41
+\bibitem[\protect\citeauthoryear{Issahaku}{2024}]{ref43}
+\begin{botherref}
+\oauthor{\bsnm{Issahaku}, \binits{H.}}:
+Digital Finance, Agriculture, and Inclusive Development.
+In: Muschert, G.W., Pereira, V., Ramiah, V., Cansin Doker, A. (eds). Financial
+  Inclusion. Sustainable Development Goals Series. Springer, Cham
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 42
+\bibitem[\protect\citeauthoryear{Januzaj et~al.}{2023}]{ref45}
+\begin{botherref}
+\oauthor{\bsnm{Januzaj}, \binits{Y.}},
+\oauthor{\bsnm{Beqiri}, \binits{E.}},
+\oauthor{\bsnm{Luma}, \binits{A.}}:
+Determining the Optimal Number of Clusters using Silhouette Score as a Data
+  Mining Technique.
+International Journal of Online \& Biomedical Engineering, 19(4)
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 43
+\bibitem[\protect\citeauthoryear{Jemaneh and Shibeshi}{2023}]{ref46}
+\begin{botherref}
+\oauthor{\bsnm{Jemaneh}, \binits{S.A.}},
+\oauthor{\bsnm{Shibeshi}, \binits{E.M.}}:
+Women empowerment in agriculture and its effect on household food security:
+  evidence from Gamo Zone of Southern Ethiopia.
+Agriculture \& Food Security, 12, 37
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 44
+\bibitem[\protect\citeauthoryear{Kuldasheva and Ahmad}{2025}]{ref51}
+\begin{botherref}
+\oauthor{\bsnm{Kuldasheva}, \binits{Z.}},
+\oauthor{\bsnm{Ahmad}, \binits{M.}}:
+Empowering economic growth through female labor force participation in Central
+  Asia: Evidence from regression and dynamic analyses.
+Asia and the Global Economy, 5(2), 100--115
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 45
+\bibitem[\protect\citeauthoryear{Kangasniemi et~al.}{2025}]{ref47}
+\begin{botherref}
+\oauthor{\bsnm{Kangasniemi}, \binits{M.}},
+\oauthor{\bsnm{Bhalla}, \binits{G.}},
+\oauthor{\bsnm{Knowles}, \binits{M.}},
+\oauthor{\bsnm{Pereira}, \binits{K.C.}},
+\oauthor{\bsnm{Gentilini}, \binits{U.}}:
+The role of social protection in achieving resilient and inclusive rural
+  transformation.
+Global Food Security, 44, 100836
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 46
+\bibitem[\protect\citeauthoryear{Khan and Kim}{2025}]{ref49}
+\begin{botherref}
+\oauthor{\bsnm{Khan}, \binits{C.M.}},
+\oauthor{\bsnm{Kim}, \binits{S.G.}}:
+Evaluating the impact of agricultural credit access on smallholder maize
+  farmers' productivity in the Northwest Region of Cameroon.
+Sustainability, 17(17), 7574
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 47
+\bibitem[\protect\citeauthoryear{Khalatur et~al.}{2023}]{ref48}
+\begin{botherref}
+\oauthor{\bsnm{Khalatur}, \binits{S.}},
+\oauthor{\bsnm{Kachula}, \binits{S.}},
+\oauthor{\bsnm{Oleksiuk}, \binits{V.}},
+\oauthor{\bsnm{Kravchenko}, \binits{M.}},
+\oauthor{\bsnm{Klymenko}, \binits{S.}}:
+Anti-crisis management as a basis for the formation of a financial mechanism
+  for the sustainable development of agricultural business
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 48
+\bibitem[\protect\citeauthoryear{Kolinets and Tokar}{2019}]{ref50}
+\begin{botherref}
+\oauthor{\bsnm{Kolinets}, \binits{L.}},
+\oauthor{\bsnm{Tokar}, \binits{V.}}:
+Status Quo of Gender Equality in EU Rural Business Management.
+Management Theory and Studies for Rural Business and Infrastructure
+  Development, 41(3), 400-408
+(2019)
+\end{botherref}
+\endbibitem
+
+%%% 49
+\bibitem[\protect\citeauthoryear{Lidder et~al.}{2025}]{ref55}
+\begin{botherref}
+\oauthor{\bsnm{Lidder}, \binits{P.}},
+\oauthor{\bsnm{Cattaneo}, \binits{A.}},
+\oauthor{\bsnm{Chaya}, \binits{M.}}:
+Innovation and technology for achieving resilient and inclusive rural
+  transformation.
+Global Food Security, 44, 100827
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 50
+\bibitem[\protect\citeauthoryear{Lopez et~al.}{2022}]{ref57}
+\begin{botherref}
+\oauthor{\bsnm{Lopez}, \binits{D.E.}},
+\oauthor{\bsnm{Frelat}, \binits{R.}},
+\oauthor{\bsnm{Badstue}, \binits{L.B.}}:
+Towards gender-inclusive innovation: Assessing local conditions for
+  agricultural targeting.
+PLoS One, 17(3), e0263771
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 51
+\bibitem[\protect\citeauthoryear{Lambrecht et~al.}{2023}]{ref52}
+\begin{botherref}
+\oauthor{\bsnm{Lambrecht}, \binits{I.B.}},
+\oauthor{\bsnm{Mahrt}, \binits{K.}},
+\oauthor{\bsnm{Synt}, \binits{N.L.K.}},
+\oauthor{\bsnm{Win}, \binits{H.E.}},
+\oauthor{\bsnm{Win}, \binits{K.Z.}}:
+Gender gaps in land rights: Explaining different measures and why households
+  differ in Myanmar.
+Agricultural Economics, 54(6), 728--741
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 52
+\bibitem[\protect\citeauthoryear{Lin and Peng}{2025}]{ref56}
+\begin{botherref}
+\oauthor{\bsnm{Lin}, \binits{H.}},
+\oauthor{\bsnm{Peng}, \binits{P.}}:
+Impacts of digital inclusive finance, human capital, and the digital economy on
+  rural development in developing countries.
+Finance Research Letters, 73, 106654
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 53
+\bibitem[\protect\citeauthoryear{Lee and Wooldridge}{2023}]{ref53}
+\begin{botherref}
+\oauthor{\bsnm{Lee}, \binits{S.J.}},
+\oauthor{\bsnm{Wooldridge}, \binits{J.M.}}:
+A Simple Transformation Approach to Difference-in-Differences Estimation for
+  Panel Data.
+Available at SSRN 4516518
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 54
+\bibitem[\protect\citeauthoryear{Li and Zhang}{2025}]{ref54}
+\begin{botherref}
+\oauthor{\bsnm{Li}, \binits{B.}},
+\oauthor{\bsnm{Zhang}, \binits{S.}}:
+The effect of financial literacy on agricultural entrepreneurship.
+Finance Research Letters, 74, 106704
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 55
+\bibitem[\protect\citeauthoryear{Mare}{2017}]{ref59}
+\begin{botherref}
+\oauthor{\bsnm{Mare}, \binits{Y.}}:
+Gender division of labor and rural women's control over productive resources:
+  The case of Dita and Mirab Abaya districts, Gamo Gofa zone, Southern Nations,
+  Nationalities, and Peoples Region (SNNPR), Ethiopia.
+Journal of Agricultural Extension and Rural Development, 9(10), 230-238
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 56
+\bibitem[\protect\citeauthoryear{Mottet et~al.}{2020}]{ref67}
+\begin{botherref}
+\oauthor{\bsnm{Mottet}, \binits{A.}},
+\oauthor{\bsnm{Bicksler}, \binits{A.}},
+\oauthor{\bsnm{Lucantoni}, \binits{D.}},
+\oauthor{\bsnm{De~Rosa}, \binits{F.}},
+\oauthor{\bsnm{Scherf}, \binits{B.}},
+\oauthor{\bsnm{Scopel}, \binits{E.}},
+\oauthor{\bsnm{López-Ridaura}, \binits{S.}},
+\oauthor{\bsnm{Gemmil-Herren}, \binits{B.}},
+\oauthor{\bsnm{Bezner~Kerr}, \binits{R.}},
+\oauthor{\bsnm{Sourisseau}, \binits{J.-M.}}:
+Assessing transitions to sustainable agricultural and food systems: A tool for
+  agroecology performance evaluation (TAPE).
+Frontiers in Sustainable Food Systems, 4, 579154
+(2020)
+\end{botherref}
+\endbibitem
+
+%%% 57
+\bibitem[\protect\citeauthoryear{Meinzen-Dick et~al.}{2019}]{ref62}
+\begin{botherref}
+\oauthor{\bsnm{Meinzen-Dick}, \binits{R.}},
+\oauthor{\bsnm{Quisumbing}, \binits{A.}},
+\oauthor{\bsnm{Doss}, \binits{C.}},
+\oauthor{\bsnm{Theis}, \binits{S.}}:
+Women's land rights as a pathway to poverty reduction: Framework and review of
+  available evidence.
+Agricultural Systems, 172, 72-82
+(2019)
+\end{botherref}
+\endbibitem
+
+%%% 58
+\bibitem[\protect\citeauthoryear{Mager and Faße}{2023}]{ref58}
+\begin{botherref}
+\oauthor{\bsnm{Mager}, \binits{G.}},
+\oauthor{\bsnm{Faße}, \binits{A.}}:
+The contribution of smallholders' livelihood activities to income inequality
+  and poverty: A case study from rural Tanzania.
+Journal of International Development, 36(1), 644-676
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 59
+\bibitem[\protect\citeauthoryear{Mkhitaryan}{2021}]{ref63}
+\begin{botherref}
+\oauthor{\bsnm{Mkhitaryan}, \binits{A.}}:
+Leasing as an effective tool for agricultural financing: The case of Armenia.
+Ural Agricultural Bulletin, (3 (206)), 81-91
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 60
+\bibitem[\protect\citeauthoryear{Mohammed et~al.}{2025}]{ref66}
+\begin{botherref}
+\oauthor{\bsnm{Mohammed}, \binits{F.Y.}},
+\oauthor{\bsnm{Khonje}, \binits{M.G.}},
+\oauthor{\bsnm{Qaim}, \binits{M.}}:
+Women's roles in decision-making and nutrition-sensitive agriculture.
+Food Security, 17, 1301--1315
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 61
+\bibitem[\protect\citeauthoryear{Mozumdar et~al.}{2025}]{ref68}
+\begin{botherref}
+\oauthor{\bsnm{Mozumdar}, \binits{L.}},
+\oauthor{\bsnm{Lindgren}, \binits{S.}},
+\oauthor{\bsnm{Nishat}, \binits{N.}}:
+Modern agrotechnology, women's empowerment, and poverty reduction nexus:
+  Mediation of farm performance; empirical evidence on the BAU-STR dryer.
+World Development Perspectives, 37, 100673
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 62
+\bibitem[\protect\citeauthoryear{Mbangiswano et~al.}{2025}]{ref61}
+\begin{botherref}
+\oauthor{\bsnm{Mbangiswano}, \binits{S.Z.}},
+\oauthor{\bsnm{Ndlovu}, \binits{E.}},
+\oauthor{\bsnm{Vuthela}, \binits{Z.S.}}:
+Empowering rural women agripreneurs through financial inclusion: Lessons from
+  South Africa for the G20 development agenda.
+Administrative Sciences, 15(9), 340
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 63
+\bibitem[\protect\citeauthoryear{Mazakaza and Odoyo}{2022}]{ref60}
+\begin{botherref}
+\oauthor{\bsnm{Mazakaza}, \binits{C.}},
+\oauthor{\bsnm{Odoyo}, \binits{C.}}:
+The impact of microfinance on women: A brief review of the literature.
+International Journal of Finance and Accounting, 7(2), 55--64
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 64
+\bibitem[\protect\citeauthoryear{Mohapatra et~al.}{2020}]{ref65}
+\begin{botherref}
+\oauthor{\bsnm{Mohapatra}, \binits{N.}},
+\oauthor{\bsnm{Shreya}, \binits{K.}},
+\oauthor{\bsnm{Chinmay}, \binits{A.}}:
+Optimization of the random forest algorithm.
+In Advances in Data Science and Management: Proceedings of ICDSM 2019 (pp.
+  201-208). Springer
+(2020)
+\end{botherref}
+\endbibitem
+
+%%% 65
+\bibitem[\protect\citeauthoryear{Mobarok et~al.}{2021}]{ref64}
+\begin{botherref}
+\oauthor{\bsnm{Mobarok}, \binits{M.H.}},
+\oauthor{\bsnm{Skevas}, \binits{T.}},
+\oauthor{\bsnm{Thompson}, \binits{W.}}:
+Women's empowerment in agriculture and productivity change: The case of
+  Bangladesh rice farms.
+PLoS ONE, 16(8), e0255589
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 66
+\bibitem[\protect\citeauthoryear{Nhelnyama}{2026}]{ref72}
+\begin{botherref}
+\oauthor{\bsnm{Nhelnyama}, \binits{S.N.}}:
+Adoption of Artificial Intelligence for Agricultural Development and
+  Advancement.
+In Use and Abuse of AI in Warfare, Human Development, and Social Justice (pp.
+  1--22). IGI Global Scientific Publishing
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 67
+\bibitem[\protect\citeauthoryear{Nyberg et~al.}{2025}]{ref73}
+\begin{botherref}
+\oauthor{\bsnm{Nyberg}, \binits{Y.}},
+\oauthor{\bsnm{Mackay}, \binits{H.}},
+\oauthor{\bsnm{Wilson}, \binits{M.}},
+\oauthor{\bsnm{Samkunde}, \binits{M.}},
+\oauthor{\bsnm{Wetterlind}, \binits{J.}}:
+Supporting access and implementation of agricultural extension services for
+  female smallholder farmers.
+International Journal of Agricultural Sustainability, 23(1), 2505387
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 68
+\bibitem[\protect\citeauthoryear{Nchanji et~al.}{2025}]{ref71}
+\begin{botherref}
+\oauthor{\bsnm{Nchanji}, \binits{E.B.}},
+\oauthor{\bsnm{Ndunguru}, \binits{A.}},
+\oauthor{\bsnm{Kabungo}, \binits{C.e.a.}}:
+Assessing gender disparities in farmers' access and use of climate-smart
+  agriculture in Southern Tanzania.
+Discover Sustainability, 6, 337
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 69
+\bibitem[\protect\citeauthoryear{Naheed and Rukhsana}{2024}]{ref69}
+\begin{botherref}
+\oauthor{\bsnm{Naheed}, \binits{S.}},
+\oauthor{\bsnm{Rukhsana}, \binits{R.}}:
+Transitioning to sustainable food systems in a changing climate and gender
+  equality: A brief review.
+Agriculture \& Food Security, 13, 41
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 70
+\bibitem[\protect\citeauthoryear{Namayengo et~al.}{2023}]{ref70}
+\begin{botherref}
+\oauthor{\bsnm{Namayengo}, \binits{F.M.M.}},
+\oauthor{\bsnm{Ophem}, \binits{J.A.C.}},
+\oauthor{\bsnm{Antonides}, \binits{G.}}:
+A comparative study on the role of microcredit in improving agricultural
+  production among resource-poor rural women.
+Frontiers in Sustainable Food Systems, 7
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 71
+\bibitem[\protect\citeauthoryear{Ogunsola et~al.}{2024}]{ref75}
+\begin{botherref}
+\oauthor{\bsnm{Ogunsola}, \binits{O.E.}},
+\oauthor{\bsnm{Adenuga}, \binits{M.A.}},
+\oauthor{\bsnm{Nnabueze}, \binits{S.B.}}:
+Fostering Inclusive Economies: The Role of Cooperatives in Empowering Women
+  Entrepreneurs in Agriculture.
+Global Management and Policy Journal, 1(3), 26-46
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 72
+\bibitem[\protect\citeauthoryear{OECD/GWEP}{2025}]{ref74}
+\begin{botherref}
+\oauthor{\bsnm{OECD/GWEP}}:
+Bridging the Finance Gap for Women Entrepreneurs: Insights from Academic and
+  Policy Research.
+OECD Studies on SMEs and Entrepreneurship, Paris
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 73
+\bibitem[\protect\citeauthoryear{Omotayo and Omotoso}{2025}]{ref76}
+\begin{botherref}
+\oauthor{\bsnm{Omotayo}, \binits{A.O.}},
+\oauthor{\bsnm{Omotoso}, \binits{A.B.}}:
+Climate-smart agricultural technology and gender-differentiated food and water
+  security: Evidence from smallholder sunflower (Helianthus annuus L.) farmers.
+Agricultural Water Management, 308, 109276
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 74
+\bibitem[\protect\citeauthoryear{Phillips et~al.}{2025}]{ref77}
+\begin{botherref}
+\oauthor{\bsnm{Phillips}, \binits{L.}},
+\oauthor{\bsnm{Quisumbing}, \binits{A.}},
+\oauthor{\bsnm{Slavchevska}, \binits{V.}},
+\oauthor{\bsnm{Davis}, \binits{B.}},
+\oauthor{\bsnm{Kilic}, \binits{T.}},
+\oauthor{\bsnm{Mane}, \binits{E.}}:
+Gender inequalities in agrifood systems: An overview of the state of research.
+Global Food Security, 47, 100892
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 75
+\bibitem[\protect\citeauthoryear{Quisumbing et~al.}{2023}]{ref78}
+\begin{botherref}
+\oauthor{\bsnm{Quisumbing}, \binits{A.}},
+\oauthor{\bsnm{Cole}, \binits{S.}},
+\oauthor{\bsnm{Elias}, \binits{M.}},
+\oauthor{\bsnm{Faas}, \binits{S.}},
+\oauthor{\bsnm{Galiè}, \binits{A.}},
+\oauthor{\bsnm{Malapit}, \binits{H.}},
+\oauthor{\bsnm{Meinzen-Dick}, \binits{R.}},
+\oauthor{\bsnm{Myers}, \binits{E.}},
+\oauthor{\bsnm{Seymour}, \binits{G.}},
+\oauthor{\bsnm{Twyman}, \binits{J.}}:
+Measuring women's empowerment in agriculture: Innovations and evidence.
+Global Food Security, 38, 100707
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 76
+\bibitem[\protect\citeauthoryear{Rubin et~al.}{2019}]{ref82}
+\begin{botherref}
+\oauthor{\bsnm{Rubin}, \binits{D.}},
+\oauthor{\bsnm{Boonabaana}, \binits{B.}},
+\oauthor{\bsnm{Manfre}, \binits{C.}}:
+Building an inclusive agriculture: Strengthening gender equality in
+  agricultural value chains.
+In Strengthening rural institutions and value chains for inclusive agricultural
+  development (pp. 101--122). World Bank
+(2019)
+\end{botherref}
+\endbibitem
+
+%%% 77
+\bibitem[\protect\citeauthoryear{Roberts}{2026}]{ref80}
+\begin{botherref}
+\oauthor{\bsnm{Roberts}, \binits{T.G.}}:
+Artificial intelligence and digital technologies in agricultural development
+  research and practice.
+Advancements in Agricultural Development, 7(2), 1-7
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 78
+\bibitem[\protect\citeauthoryear{Ragsdale et~al.}{2018}]{ref79}
+\begin{botherref}
+\oauthor{\bsnm{Ragsdale}, \binits{K.}},
+\oauthor{\bsnm{Read-Wahidi}, \binits{M.R.}},
+\oauthor{\bsnm{Wei}, \binits{T.}},
+\oauthor{\bsnm{Martey}, \binits{E.}},
+\oauthor{\bsnm{Goldsmith}, \binits{P.}}:
+Using the WEAI+ to explore gender equity and agricultural empowerment: Baseline
+  evidence among men and women smallholder farmers in Ghana's Northern Region.
+Journal of Rural Studies, 64, 123-134
+(2018)
+\end{botherref}
+\endbibitem
+
+%%% 79
+\bibitem[\protect\citeauthoryear{Ros-Tonen et~al.}{2019}]{ref81}
+\begin{botherref}
+\oauthor{\bsnm{Ros-Tonen}, \binits{M.A.}},
+\oauthor{\bsnm{Bitzer}, \binits{V.}},
+\oauthor{\bsnm{Laven}, \binits{A.}},
+\oauthor{\bsnm{Leth}, \binits{D.O.}},
+\oauthor{\bsnm{Van~Leynseele}, \binits{Y.}},
+\oauthor{\bsnm{Vos}, \binits{A.}}:
+Conceptualizing inclusiveness of smallholder value chain integration.
+Current Opinion in Environmental Sustainability, 41, 10-17
+(2019)
+\end{botherref}
+\endbibitem
+
+%%% 80
+\bibitem[\protect\citeauthoryear{S}{2022}]{ref11}
+\begin{botherref}
+\oauthor{\bsnm{S}, \binits{A.}}:
+, Mundler P.
+The gendered motives and experiences of Canadian women farmers in short food
+  supply chains: Work satisfaction, values of care, and the potential for
+  empowerment // Journal of Rural Studies. -- 2022. -- Vol. 96. -- P. 19-31
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 81
+\bibitem[\protect\citeauthoryear{Sassi}{2026}]{ref84}
+\begin{botherref}
+\oauthor{\bsnm{Sassi}, \binits{M.}}:
+Women's empowerment in agriculture and household food security among
+  smallholder farmers in Rejaf Payam, South Sudan: a mixed-methods analysis.
+Agric Econ, 14, 35
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 82
+\bibitem[\protect\citeauthoryear{Shahriar et~al.}{2025}]{ref88}
+\begin{botherref}
+\oauthor{\bsnm{Shahriar}, \binits{A.Z.M.}},
+\oauthor{\bsnm{Chase}, \binits{S.R.}},
+\oauthor{\bsnm{Shepherd}, \binits{D.}}:
+Financial inclusion and low-income women' s new venture initiation: A Field
+  experiment.
+Journal of Business Venturing, 40(5), 106525
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 83
+\bibitem[\protect\citeauthoryear{Song et~al.}{2026}]{ref87}
+\begin{botherref}
+\oauthor{\bsnm{Song}, \binits{Q.}},
+\oauthor{\bsnm{Han}, \binits{Z.}},
+\oauthor{\bsnm{Shi}, \binits{Z.}}:
+Financial Mechanism of Digital Rural Construction in Promoting Agricultural
+  Productivity and Rural Modernization.
+Finance Research Letters, 109478
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 84
+\bibitem[\protect\citeauthoryear{Stepanenko et~al.}{2023}]{ref92}
+\begin{botherref}
+\oauthor{\bsnm{Stepanenko}, \binits{S.}},
+\oauthor{\bsnm{Kryukova}, \binits{I.}},
+\oauthor{\bsnm{Khalin}, \binits{S.}},
+\oauthor{\bsnm{Podsokha}, \binits{A.}}:
+Inclusive investment in the sustainable development of the agricultural sector
+  and rural areas of Ukraine.
+Collection of Papers New Economy, 1(1), 75--88
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 85
+\bibitem[\protect\citeauthoryear{Satpayeva et~al.}{2020}]{ref85}
+\begin{botherref}
+\oauthor{\bsnm{Satpayeva}, \binits{Z.T.}},
+\oauthor{\bsnm{Kireyeva}, \binits{A.A.}},
+\oauthor{\bsnm{Kenzhegulova}, \binits{G.}},
+\oauthor{\bsnm{Yermekbayeva}, \binits{D.}}:
+Gender equality and women's business under the 5Ms framework in Kazakhstan:
+  Analysis and basic directions.
+The Journal of Asian Finance, Economics and Business, 7(3), 253--263
+(2020)
+\end{botherref}
+\endbibitem
+
+%%% 86
+\bibitem[\protect\citeauthoryear{Salman et~al.}{2024}]{ref83}
+\begin{botherref}
+\oauthor{\bsnm{Salman}, \binits{H.A.}},
+\oauthor{\bsnm{Kalakech}, \binits{A.}},
+\oauthor{\bsnm{Steiti}, \binits{A.}}:
+Random forest algorithm overview.
+Babylonian Journal of Machine Learning, 2024, 69--79
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 87
+\bibitem[\protect\citeauthoryear{Shali~Lasrado et~al.}{2025}]{ref89}
+\begin{botherref}
+\oauthor{\bsnm{Shali~Lasrado}, \binits{B.}},
+\oauthor{\bsnm{Panakaje}, \binits{N.}},
+\oauthor{\bsnm{Parvin}, \binits{S.R.}},
+\oauthor{\bsnm{Kagzi}, \binits{M.}},
+\oauthor{\bsnm{Sheikh}, \binits{N.}},
+\oauthor{\bsnm{Irfana}, \binits{S.}},
+\oauthor{\bsnm{Banu}, \binits{W.}}:
+Skills assessment and development scale for rural women entrepreneurs:
+  Conceptualization and validation.
+Journal of Small Business and Enterprise Development, 32(7), 1530-1557
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 88
+\bibitem[\protect\citeauthoryear{Stawicka and Parlinska}{2021}]{ref91}
+\begin{botherref}
+\oauthor{\bsnm{Stawicka}, \binits{E.}},
+\oauthor{\bsnm{Parlinska}, \binits{M.}}:
+Female entrepreneurship in rural areas in the context of the labor market.
+(55)
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 89
+\bibitem[\protect\citeauthoryear{Schoneveld and Weng}{2023}]{ref90}
+\begin{botherref}
+\oauthor{\bsnm{Schoneveld}, \binits{G.C.}},
+\oauthor{\bsnm{Weng}, \binits{X.}}:
+Smallholder value creation in agrifood chains: Value network approach.
+Land Use Policy, 131, 106676
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 90
+\bibitem[\protect\citeauthoryear{Timu et~al.}{2024}]{ref93}
+\begin{botherref}
+\oauthor{\bsnm{Timu}, \binits{A.G.}},
+\oauthor{\bsnm{Manoti}, \binits{D.}},
+\oauthor{\bsnm{Shee}, \binits{A.}},
+\oauthor{\bsnm{You}, \binits{L.}}:
+Impacts of gender-inclusive extension approaches on farmer understanding and
+  willingness to pay for bundled financial services.
+Current Research in Environmental Sustainability, 8, 100268
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 91
+\bibitem[\protect\citeauthoryear{Tundui and Tundui}{2024}]{ref94}
+\begin{botherref}
+\oauthor{\bsnm{Tundui}, \binits{H.P.}},
+\oauthor{\bsnm{Tundui}, \binits{C.S.}}:
+Microcredit and women's entrepreneurial success: A moderated mediation effect
+  of household economic status.
+International Journal of Sociology and Social Policy, 44(9/10), 793-808
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 92
+\bibitem[\protect\citeauthoryear{Urago and Bozoğlu}{2022}]{ref96}
+\begin{botherref}
+\oauthor{\bsnm{Urago}, \binits{G.G.}},
+\oauthor{\bsnm{Bozoğlu}, \binits{M.}}:
+Literature review on farmers' access to agricultural credit in Ethiopia.
+Anadolu Journal of Agricultural Sciences, 37(2), 301-316
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 93
+\bibitem[\protect\citeauthoryear{Ullah et~al.}{2024}]{ref95}
+\begin{botherref}
+\oauthor{\bsnm{Ullah}, \binits{A.}},
+\oauthor{\bsnm{Verner}, \binits{V.}},
+\oauthor{\bsnm{Madaki}, \binits{M.Y.}},
+\oauthor{\bsnm{Adams}, \binits{F.}},
+\oauthor{\bsnm{Bavorova}, \binits{M.}}:
+Factors influencing informal credit access and utilization among smallholder
+  farmers: Insights from mountainous regions of Pakistan.
+Agriculture, 14(10), 1764
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 94
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2025}]{ref97}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{S.}},
+\oauthor{\bsnm{Mwalupaso}, \binits{G.E.}},
+\oauthor{\bsnm{Akter}, \binits{A.}}:
+Nexus of women's participation in smallholder financial inclusion programs and
+  economic efficiency: implications for poverty alleviation.
+Frontiers in Sustainable Food Systems, 9, 1613678
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 95
+\bibitem[\protect\citeauthoryear{Wooldridge}{2023}]{ref100}
+\begin{botherref}
+\oauthor{\bsnm{Wooldridge}, \binits{J.M.}}:
+Simple approaches to nonlinear difference-in-differences with panel data.
+The Econometrics Journal, 26(3), C31-C66
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 96
+\bibitem[\protect\citeauthoryear{Wooldridge}{2025}]{ref101}
+\begin{botherref}
+\oauthor{\bsnm{Wooldridge}, \binits{J.M.}}:
+Two-way fixed effects, the two-way Mundlak regression, and
+  difference-in-differences estimators.
+Empirical Economics, 69(5), 2545-2587
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 97
+\bibitem[\protect\citeauthoryear{Wasif et~al.}{2025}]{ref99}
+\begin{botherref}
+\oauthor{\bsnm{Wasif}, \binits{M.}},
+\oauthor{\bsnm{Sadiqe}, \binits{M.}},
+\oauthor{\bsnm{Khan}, \binits{M.M.H.}},
+\oauthor{\bsnm{Muzaffar}, \binits{B.}}:
+Challenges and Opportunities Faced by Rural Women Entrepreneurs.
+Examining Barriers and Building Resiliency for Rural Women Entrepreneurs, 1--28
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 98
+\bibitem[\protect\citeauthoryear{Ye}{2025}]{ref105}
+\begin{botherref}
+\oauthor{\bsnm{Ye}, \binits{L.}}:
+Digital economy and high-quality agricultural development.
+International Review of Economics \& Finance, 99, 104028
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 99
+\bibitem[\protect\citeauthoryear{Yang and Li}{2025}]{ref104}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{L.}},
+\oauthor{\bsnm{Li}, \binits{M.}}:
+Rural financial services and agricultural technological innovation.
+Finance Research Letters, 86(Part B), 108478
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 100
+\bibitem[\protect\citeauthoryear{Yang and Li}{2026}]{ref103}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{Z.}},
+\oauthor{\bsnm{Li}, \binits{X.}}:
+From credit access to farmers' income resilience: evaluating the impact of
+  financial reform on urban--rural inequality and rural income stability.
+Frontiers in Sustainable Food Systems, 10, 1759680
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 101
+\bibitem[\protect\citeauthoryear{Yan et~al.}{2022}]{ref102}
+\begin{botherref}
+\oauthor{\bsnm{Yan}, \binits{Z.}},
+\oauthor{\bsnm{Wei}, \binits{F.}},
+\oauthor{\bsnm{Deng}, \binits{X.}},
+\oauthor{\bsnm{Li}, \binits{C.}},
+\oauthor{\bsnm{He}, \binits{Q.}},
+\oauthor{\bsnm{Qi}, \binits{Y.}}:
+Feminization of Agriculture: Do Female Farmers Have Higher Expectations for the
+  Value of Their Farmland? -- Empirical Evidence from China.
+Agriculture, 12(1), 60
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 102
+\bibitem[\protect\citeauthoryear{Zhou and Zhang}{2026}]{ref106}
+\begin{botherref}
+\oauthor{\bsnm{Zhou}, \binits{X.}},
+\oauthor{\bsnm{Zhang}, \binits{R.}}:
+Financing green agriculture: The role of rural financial services in enhancing
+  eco-efficiency.
+Finance Research Letters, 91, 108645
+(2026)
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
