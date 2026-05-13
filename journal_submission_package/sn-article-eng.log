@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.27)  11 MAY 2026 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.27)  13 MAY 2026 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1113,26 +1113,22 @@ Package pdftex.def Info: figures/figure08.png  used on input line 1013.
 (pdftex.def)             Requested size: 372.0pt x 221.1921pt.
  [21 <./figures/figure07.png>] [22 <./figures/figure08.png>] [23] [24] [25] [26
 ] [27] [28] [29] (sn-article-eng.bbl [30] [31] [32]
-[33] [34] [35] [36]) [37] (sn-article-eng.aux)
+[33] [34] [35] [36] [37]) [38] (sn-article-eng.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `sn-article-eng.out' has not changed.
 (rerunfilecheck)             Checksum: D5FCF35144A60257DAAA7382054049B1;9696.
  ) 
 Here is how much of TeX's memory you used:
- 16757 strings out of 467871
- 268261 string characters out of 5418376
+ 16758 strings out of 467871
+ 268268 string characters out of 5418376
  710005 words of memory out of 5000000
  44980 multiletter control sequences out of 15000+600000
  692808 words of font info for 174 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,16n,93p,1998b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,16n,93p,1998b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb><C:/Users/sadva/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1144,9 +1140,9 @@ grams/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/sadva/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/sadva/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/sadva/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on sn-article-eng.pdf (37 pages, 2028162 bytes).
+Output written on sn-article-eng.pdf (38 pages, 2028961 bytes).
 PDF statistics:
- 873 PDF objects out of 1000 (max. 8388607)
- 214 named destinations out of 1000 (max. 500000)
+ 877 PDF objects out of 1000 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
  40249 words of extra memory for PDF output out of 42996 (max. 10000000)
 
