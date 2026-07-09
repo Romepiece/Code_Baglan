@@ -1,0 +1,7 @@
+# LaTeX crash/aux logs
+texput.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
