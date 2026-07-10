@@ -1,0 +1,22 @@
+# Women & agri-credit study pipeline (woman_statistic/src, stages 01-99)
+# Tested with Python 3.13 (repo .venv). Install:  pip install -r requirements.txt
+
+# Data handling
+pandas>=2.3
+numpy>=2.0
+openpyxl>=3.1        # pd.read_excel for data/women_agri_panel.xlsx
+
+# Econometrics (stage 04)
+statsmodels>=0.14
+linearmodels>=7.0    # PanelOLS two-way fixed effects
+scipy>=1.14
+
+# Machine learning (stages 05-06)
+scikit-learn>=1.6    # KMeans, RandomForest, partial dependence, GroupKFold
+
+# Visualization
+matplotlib>=3.9
+seaborn>=0.13
+
+# Optional - referee revision checks (planned 04b_referee_checks.py)
+# wildboottest>=0.2  # wild cluster bootstrap p-values (few clusters)

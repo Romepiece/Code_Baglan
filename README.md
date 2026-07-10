@@ -24,7 +24,7 @@ Agricultural Sector: The Role of Regional Factors and Access to Land»**
 пишет результаты только в свою подпапку `output/`.
 
 ```bash
-pip install pandas numpy openpyxl matplotlib statsmodels linearmodels scikit-learn
+pip install -r woman_statistic/requirements.txt
 cd woman_statistic
 python src/01_load_validate.py
 python src/02_eda.py

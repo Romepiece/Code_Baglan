@@ -1,5 +1,17 @@
+# Claude Code personal settings
+.claude/settings.local.json
+
 # LaTeX crash/aux logs
 texput.log
+
+# Revision workspace build artifacts
+revision/**/*.aux
+revision/**/*.log
+revision/**/*.out
+revision/**/*.bbl
+revision/**/*.blg
+revision/**/*.pdf
+revision/diff/
 
 # Python
 __pycache__/
