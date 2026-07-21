@@ -18,5 +18,5 @@ scikit-learn>=1.6    # KMeans, RandomForest, partial dependence, GroupKFold
 matplotlib>=3.9
 seaborn>=0.13
 
-# Optional - referee revision checks (planned 04b_referee_checks.py)
-# wildboottest>=0.2  # wild cluster bootstrap p-values (few clusters)
+# Referee revision checks (stage 04b_referee_checks.py)
+wildboottest>=0.3    # wild cluster bootstrap p-values (few clusters)

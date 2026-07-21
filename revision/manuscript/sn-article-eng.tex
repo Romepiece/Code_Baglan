@@ -750,7 +750,7 @@ volume of institutional lending and the number of farms owned by women
 are characterized by a large number of farms. Estimation of the two-way
 fixed effects (TWFE) model revealed that after accounting for regional
 differences, the coefficient of the lending variable decreased from
-0.725 to 0.044 and lost statistical significance (p = 0.576). This
+0.725 to 0.044 and lost statistical significance (p = \rev{0.596}). This
 implies that lending flows to developed regions but does not stimulate
 women's entrepreneurship within those regions. This raises the following
 question:
@@ -772,7 +772,7 @@ infrastructure. In our view, the observed correlation can be explained
 by other regional factors or by a feedback mechanism, whereby the growth
 of women's entrepreneurship increases the demand for loans.
 
-\subsection{Panel regression results: econometric analysis}
+\subsection{Panel regression results: econometric analysis}\label{sec:panel-results}
 
 \begin{table}[htbp]
 \caption{Comparison of pooled OLS and TWFE}\label{tab:pooled-twfe}
@@ -791,6 +791,7 @@ $R^2$ & 0.336 &  & 0.030 (within) & \\
 Adjusted $R^2$ & 0.327 &  & 0.099 (overall) & \\
 Fixed effects & No &  & Region + Year & \\
 SE type & HC1-robust &  & Clustered (region) & \\
+Clusters (regions) & -- &  & \rev{17} & \\
 \botrule
 \end{tabular*}
 \end{table}
@@ -822,6 +823,29 @@ To account for these differences, we applied the TWFE fixed effects
 model, which incorporates these regional characteristics. Here, we
 observe that the coefficient for the credit variable decreases from
 0.725 to 0.044 and loses statistical significance (p = 0.596).
+
+\rev{Because three cities of republican significance (Astana, Almaty,
+and Shymkent) are excluded from the estimation sample due to missing
+land\_share data, standard errors in the TWFE model are clustered on
+only 17 regions rather than the full set of 20. With so few clusters,
+inference based on standard cluster-robust standard errors can be
+unreliable \citep{ref107}. As a robustness check, we additionally
+computed wild cluster bootstrap p-values (Rademacher weights, 9,999
+replications) for the credit coefficient: the bootstrap p-value (p =
+0.606) closely matches the classical cluster-robust p-value (p =
+0.605), indicating that the lack of statistical significance is not an
+artifact of the small number of clusters.}
+
+\rev{We also tested whether the effect of credit on the number of
+women-owned farms might operate with a delay. Adding a one-year lag of
+log\_credit\_total to the TWFE specification, neither the
+contemporaneous coefficient (0.072, p = 0.481) nor the one-year lag
+(0.010, p = 0.867) is statistically significant (N = 132). Extending
+the specification to a two-year lag yields the same pattern: none of
+the contemporaneous, one-year, or two-year credit coefficients is
+significant (p = 0.781, 0.677, and 0.295, respectively; N = 115). This
+rules out a simple delayed-effect explanation for the disappearance of
+the credit coefficient under TWFE.}
 
 The following conclusions can be drawn: the second TWFE model primarily
 reflects interregional differences, meaning that loans are initially
@@ -882,7 +906,11 @@ On the basis of seven indicators --- the mean values and standard
 deviations of the number of women-owned farms and the volume of lending,
 the share of land, and the development trend --- regions were grouped into
 two clusters (optimality determined by the silhouette score criterion =
-0.400) (Table 4).
+0.400) (Table 4). \rev{This is the highest silhouette score among the
+candidates we examined (K = 2: 0.400; K = 3: 0.278; K = 4: 0.225; K =
+5: 0.211; K = 6: 0.199), supporting the choice of two clusters, although
+the absolute value indicates a moderate rather than a strong
+separation.}
 
 \begin{table}[htbp]
 \caption{Regional cluster profiles}\label{tab:cluster-profiles}
@@ -928,6 +956,14 @@ the linear trend coefficient $\beta$ corresponds to the approximate growth
 rate in percentage terms. For Cluster 0, $\beta$ = 0.091 yields approximately 9.5\%
 growth per year; for Cluster 1, $\beta$ = 0.296 yields approximately 34.5\% per
 year. *}
+
+\rev{The full regional composition of the two clusters is as follows.
+Cluster 0 (15 regions): Turkestan region, Abai, Akmola region, Aktobe
+region, Almaty region, Atyrau region, East Kazakhstan region, Zhambyl
+region, Zhetysu, West Kazakhstan region, Karaganda region, Kostanay
+region, Pavlodar region, North Kazakhstan region, and Ulytau. Cluster 1
+(5 regions): Shymkent, Kyzylorda region, Mangystau region, Almaty city,
+and Astana city.}
 
 According to our calculations, these results are significant for two
 reasons. First, rapid growth in regions with low levels of lending
@@ -1000,6 +1036,19 @@ Systematic changes over the years do not affect the dependent variable.
 Land is also important for the sustainable development of agriculture
 and women's entrepreneurship (8.84\%).
 
+\rev{Because log\_credit\_fund also has the largest share of missing
+observations among the credit variables (39\%, restricting this model
+to N = 75), we checked whether its high importance reflects genuine
+predictive content or is an artifact of the reduced, non-random sample.
+Re-estimating the random forest without log\_credit\_fund uses a larger
+sample (N = 122) but does not improve cross-validated performance
+($R^2$ = --2.18, compared with --1.12 with log\_credit\_fund included).
+Since removing the variable does not improve, and in fact worsens,
+predictive performance, the high importance of log\_credit\_fund is
+unlikely to be a pure artifact of missingness -- though, given the
+negative $R^2$ in both specifications, this should still be read as
+descriptive rather than confirmatory evidence.}
+
 The random forest model showed that the variables can accurately predict
 outcomes and confirms a significant correlation between loans and female
 farmers. The TWFE model, on the other hand, estimates the change in the
@@ -1038,6 +1087,23 @@ necessary to overcome the 2\% threshold in land ownership. Overcoming
 this barrier will lead to a multiplier effect and the use of land as a
 financial asset (consistent with the ``critical minimum of assets''
 hypothesis for entrepreneurial activity, Carter, 2022).
+
+\rev{We subsequently tested this apparent threshold econometrically,
+since partial dependence plots from a poorly performing random forest
+model may not provide reliable evidence of a threshold effect. Adding a
+threshold dummy (land\_share above a candidate cutoff) to the TWFE
+specification and searching over a grid of candidate cutoffs between
+the 10th and 90th percentile of land\_share, the most significant
+candidate (0.15\%) is not statistically significant (p = 0.150), and no
+other candidate in the grid approaches conventional significance
+levels. A hinge-spline specification around this candidate cutoff does
+show a significant change in slope (p $<$ 0.01), but this result is
+sensitive to the specific cutoff chosen and should be treated as
+suggestive rather than as confirmation of a specific threshold. We
+therefore do not find robust econometric support for a precise land
+ownership threshold and present the 2\% figure above as an exploratory
+pattern from the random forest model rather than an established
+effect.}
 
 However, the quality of the random forest model was low: RMSE = 0.95, $R^2$
 = --0.56. The negative coefficient of determination indicates that the
@@ -1216,6 +1282,18 @@ cannot fully realize its potential without adequate guarantees
 neutralize the potential impact of financial instruments, which requires
 a reevaluation of agricultural policy priorities.
 
+\rev{Hypothesis H3 further proposed that access to land moderates the
+effectiveness of lending. We tested this directly by adding an
+interaction term (log\_credit\_total $\times$ land\_share) to the TWFE
+specification. The interaction coefficient is small and not
+statistically significant (coefficient = --0.011, p = 0.723, N = 149),
+and neither of the two main effects is significant in this
+specification either. We therefore do not find direct statistical
+support for a moderating role of land access; the constraint documented
+above operates as an independent, binding limitation on women's
+entrepreneurship rather than as a factor that interacts with the
+effectiveness of credit.}
+
 \subsection{Regional characteristics of support policies for female farmers in Kazakhstan}
 
 The results of the cluster analysis confirmed Hypothesis H2: the impact
@@ -1265,6 +1343,26 @@ for explaining differences between regions, demonstrating that key
 development factors are linked to regional characteristics that remain
 constant over time rather than lending support.
 
+\rev{Robustness checks. We further tested the sensitivity of the credit
+coefficient to model specification. Re-estimating the model without
+controlling for land\_share and including the three cities of
+republican significance (Astana, Almaty, Shymkent) that are otherwise
+excluded from the main specification, the coefficient of
+log\_credit\_total becomes statistically significant (coefficient =
+0.118, p = 0.020, N = 170, 20 regions). However, once these cities are
+removed while land\_share remains excluded, significance disappears
+again (coefficient = 0.042, p = 0.606, N = 149) --- identical in
+substance to the main specification. This indicates that the positive
+pooled correlation reported above is driven specifically by the
+inclusion of cities, not by lending effects operating within rural
+regions. Excluding the three regions newly formed in 2022 (Abai,
+Zhetysu, Ulytau, each with only three years of data) does not change
+the main result (coefficient = 0.047, p = 0.585, N = 140, 14 regions),
+confirming that the null finding is not an artifact of these short
+panels. These checks complement the decomposition by lending source
+reported in Table~\ref{tab:lending-source}, where none of the
+individual credit components is significant either.}
+
 On this basis, access to lending is a necessary but not sufficient
 condition for the expansion of women's entrepreneurship in Kazakhstan's
 agricultural sector.
@@ -1281,6 +1379,15 @@ omission of some important local characteristics \citep{ref36}.
 Missing data Information on loans is missing (approximately 39\% of the
 data). This is because, in some years, certain (newly established)
 regions were not supplied with loans (Financial Support Fund).
+
+\rev{Small number of clusters. Standard errors in the TWFE model are
+clustered on only 17 regions, since three cities of republican
+significance are excluded from the estimation sample due to missing
+land\_share data. Although a wild cluster bootstrap check
+(Section~\ref{sec:panel-results}) confirms that our main conclusion is
+robust to this concern, inference based on cluster-robust standard
+errors with so few clusters should still be interpreted with some
+caution \citep{ref107}.}
 
 Land registration. We recorded only the percentage of allocated land,
 without specifying whether it belonged to the enterprise or was simply

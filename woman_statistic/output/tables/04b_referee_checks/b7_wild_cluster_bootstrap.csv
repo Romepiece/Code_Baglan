@@ -1,0 +1,3 @@
+variable,classical_clustered_p,wild_bootstrap_p,t_stat,B,note
+log_credit_total,0.6046621709517555,0.6058605860586058,0.517707777554844,9999,"Wild cluster bootstrap (Rademacher weights, WCR null-imposed), 17 clusters (regions)"
+land_share,0.5412388716378037,0.5285528552855285,0.6109406508736652,9999,"Wild cluster bootstrap (Rademacher weights, WCR null-imposed), 17 clusters (regions)"

@@ -108,6 +108,10 @@ silhouette_df = pd.DataFrame(silhouette_scores)
 optimal_k = silhouette_df.loc[silhouette_df['silhouette_score'].idxmax(), 'K']
 print(f"\n   [OK] Optimal K = {optimal_k}")
 
+# Save silhouette scores for all candidate K (referee B12: justify K=2 against alternatives)
+silhouette_df.to_csv(TABLES_05_KMEANS / "kmeans_silhouette_by_k.csv", index=False)
+print(f"   [OK] Silhouette scores for K=2..{max(K_range)} saved to kmeans_silhouette_by_k.csv")
+
 # Train final K-Means model
 print(f"\n6. Training K-Means with K={optimal_k}...")
 kmeans_final = KMeans(n_clusters=int(optimal_k), random_state=SEED, n_init=10)
@@ -120,6 +124,18 @@ print(f"   [OK] Clustering completed")
 assignments_df = regional_data[['region_id', 'cluster']].copy()
 assignments_df.to_csv(TABLES_05_KMEANS / "kmeans_assignments.csv", index=False)
 print(f"   [OK] Cluster assignments saved to kmeans_assignments.csv")
+
+# Full region list per cluster (referee C17: transparency of regional heterogeneity analysis)
+regions_by_cluster = (
+    assignments_df.groupby('cluster')['region_id']
+    .apply(lambda x: ', '.join(sorted(x)))
+    .reset_index()
+    .rename(columns={'region_id': 'regions'})
+)
+regions_by_cluster['n_regions'] = assignments_df.groupby('cluster').size().values
+regions_by_cluster = regions_by_cluster[['cluster', 'n_regions', 'regions']]
+regions_by_cluster.to_csv(TABLES_05_KMEANS / "kmeans_regions_by_cluster.csv", index=False)
+print(f"   [OK] Full region list per cluster saved to kmeans_regions_by_cluster.csv")
 
 # Create cluster profiles
 print("\n7. Creating cluster profiles...")

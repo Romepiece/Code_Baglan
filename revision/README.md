@@ -2,7 +2,11 @@
 
 ## Состав
 
-- `referee_tracker.md` — трекер всех замечаний (программные / текстовые, статусы).
+- Трекер всех замечаний рецензента (программные / текстовые, статусы, план и результат по
+  каждому пункту) теперь живёт в
+  [`../comment_agricultural_lending_women_kazakhstan_bilingual.md`](../comment_agricultural_lending_women_kazakhstan_bilingual.md) —
+  прямо под каждым пунктом оригинального отзыва, а не в отдельном файле. Программные пункты
+  помечены 🧮. `revision/referee_tracker.md` больше не существует — весь трекер там.
 - `manuscript/` — **рабочая копия** рукописи (`sn-article-eng.tex`). Все правки делаются здесь;
   оригинал в `journal_submission_package/` не трогаем — он нужен как база для diff.
 - `make_diff.ps1` — собирает автоматическую diff-версию.
@@ -51,4 +55,4 @@ powershell -ExecutionPolicy Bypass -File revision\make_diff.ps1
 1. Чистовую ревизию (manuscript с `\revmarksfalse`) — как новый manuscript.
 2. Помеченную версию — либо цветную (`\revmarkstrue`), либо `diff/sn-article-diff.pdf`,
    смотря что просит редакция.
-3. Point-by-point письмо-ответ (собирается по ID из `referee_tracker.md`).
+3. Point-by-point письмо-ответ (собирается по ID из `comment_agricultural_lending_women_kazakhstan_bilingual.md`).
